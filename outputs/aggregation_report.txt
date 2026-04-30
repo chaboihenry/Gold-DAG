@@ -1,0 +1,143 @@
+======================================================================
+Causal Exploration - Aggregation Report
+======================================================================
+
+Model: claude-sonnet-4-6
+Runs attempted: 10
+Runs succeeded: 10
+Runs with malformed JSON: 0
+
+Edges per run: min=55, max=73, mean=65.0
+Unique edges across all runs: 96
+
+Edge frequency distribution (count: # of edges with that count):
+  appeared in 18/10 runs: 1 edges
+  appeared in 15/10 runs: 1 edges
+  appeared in 14/10 runs: 1 edges
+  appeared in 12/10 runs: 2 edges
+  appeared in 11/10 runs: 3 edges
+  appeared in 10/10 runs: 36 edges
+  appeared in 9/10 runs: 4 edges
+  appeared in 8/10 runs: 2 edges
+  appeared in 7/10 runs: 4 edges
+  appeared in 6/10 runs: 3 edges
+  appeared in 5/10 runs: 5 edges
+  appeared in 4/10 runs: 3 edges
+  appeared in 3/10 runs: 4 edges
+  appeared in 2/10 runs: 12 edges
+  appeared in 1/10 runs: 15 edges
+
+======================================================================
+All edges (sorted by frequency, then alphabetical)
+======================================================================
+  [18/10] gold_price <-> jewelry_demand
+  [15/10] etf_flows <-> gold_price
+  [14/10] gold_price <-> mine_prod
+  [12/10] fed_funds <-> unemployment
+  [12/10] gold_price <-> silver
+  [11/10] breakeven_10y <-> real_10y
+  [11/10] cb_purchases <-> gpr
+  [11/10] ig_spread <-> vix
+  [10/10] breakeven_10y <-> cpi_yoy
+  [10/10] breakeven_10y <-> debt_gdp
+  [10/10] breakeven_10y <-> fed_funds
+  [10/10] breakeven_10y <-> gold_price
+  [10/10] breakeven_10y <-> oil_wti
+  [10/10] cb_purchases <-> gold_price
+  [10/10] cpi_yoy <-> fed_funds
+  [10/10] cpi_yoy <-> gold_price
+  [10/10] cpi_yoy <-> oil_wti
+  [10/10] debt_gdp <-> gold_price
+  [10/10] dxy <-> fed_funds
+  [10/10] dxy <-> gold_price
+  [10/10] epu <-> gold_price
+  [10/10] epu <-> ig_spread
+  [10/10] epu <-> vix
+  [10/10] fed_funds <-> gold_price
+  [10/10] fed_funds <-> real_10y
+  [10/10] gold_price <-> gpr
+  [10/10] gold_price <-> ig_spread
+  [10/10] gold_price <-> mich_pessim
+  [10/10] gold_price <-> oecd_cli
+  [10/10] gold_price <-> oil_wti
+  [10/10] gold_price <-> real_10y
+  [10/10] gold_price <-> sp500_ret
+  [10/10] gold_price <-> unemployment
+  [10/10] gold_price <-> vix
+  [10/10] gpr <-> oil_wti
+  [10/10] gpr <-> vix
+  [10/10] ig_spread <-> sp500_ret
+  [10/10] ig_spread <-> unemployment
+  [10/10] jewelry_demand <-> oecd_cli
+  [10/10] mich_pessim <-> unemployment
+  [10/10] oecd_cli <-> oil_wti
+  [10/10] oecd_cli <-> sp500_ret
+  [10/10] oecd_cli <-> unemployment
+  [10/10] sp500_ret <-> vix
+  [ 9/10] cpi_yoy <-> real_10y
+  [ 9/10] debt_gdp <-> real_10y
+  [ 9/10] dxy <-> real_10y
+  [ 9/10] oil_wti <-> silver
+  [ 8/10] epu <-> gpr
+  [ 8/10] etf_flows <-> vix
+  [ 7/10] epu <-> mich_pessim
+  [ 7/10] epu <-> sp500_ret
+  [ 7/10] ig_spread <-> oecd_cli
+  [ 7/10] mich_pessim <-> sp500_ret
+  [ 6/10] etf_flows <-> real_10y
+  [ 6/10] jewelry_demand <-> mich_pessim
+  [ 6/10] mine_prod <-> oil_wti
+  [ 5/10] cpi_yoy <-> unemployment
+  [ 5/10] dxy <-> gpr
+  [ 5/10] dxy <-> oil_wti
+  [ 5/10] dxy <-> vix
+  [ 5/10] gpr <-> ig_spread
+  [ 4/10] epu <-> etf_flows
+  [ 4/10] jewelry_demand <-> unemployment
+  [ 4/10] sp500_ret <-> unemployment
+  [ 3/10] cb_purchases <-> dxy
+  [ 3/10] debt_gdp <-> epu
+  [ 3/10] debt_gdp <-> ig_spread
+  [ 3/10] etf_flows <-> mich_pessim
+  [ 2/10] breakeven_10y <-> dxy
+  [ 2/10] cb_purchases <-> debt_gdp
+  [ 2/10] cb_purchases <-> etf_flows
+  [ 2/10] cpi_yoy <-> mich_pessim
+  [ 2/10] debt_gdp <-> dxy
+  [ 2/10] dxy <-> jewelry_demand
+  [ 2/10] dxy <-> silver
+  [ 2/10] etf_flows <-> oecd_cli
+  [ 2/10] etf_flows <-> silver
+  [ 2/10] etf_flows <-> sp500_ret
+  [ 2/10] fed_funds <-> ig_spread
+  [ 2/10] mich_pessim <-> vix
+  [ 1/10] breakeven_10y <-> etf_flows
+  [ 1/10] cb_purchases <-> epu
+  [ 1/10] cb_purchases <-> vix
+  [ 1/10] cpi_yoy <-> jewelry_demand
+  [ 1/10] cpi_yoy <-> oecd_cli
+  [ 1/10] debt_gdp <-> fed_funds
+  [ 1/10] dxy <-> epu
+  [ 1/10] etf_flows <-> gpr
+  [ 1/10] etf_flows <-> ig_spread
+  [ 1/10] gpr <-> sp500_ret
+  [ 1/10] mine_prod <-> silver
+  [ 1/10] oecd_cli <-> silver
+  [ 1/10] oecd_cli <-> vix
+  [ 1/10] real_10y <-> unemployment
+  [ 1/10] silver <-> sp500_ret
+
+======================================================================
+Token usage summary
+======================================================================
+Total uncached input tokens: 30
+Total cache creation tokens: 0
+Total cache read tokens: 106,900
+Total output tokens: 49,726
+
+Estimated cost (Sonnet 4.6 pricing):
+  Uncached input: $0.0001
+  Cache creation: $0.0000
+  Cache reads:    $0.0321
+  Output:         $0.7459
+  TOTAL:          $0.7781

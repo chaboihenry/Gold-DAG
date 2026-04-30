@@ -1,0 +1,62 @@
+{
+  "raw_text": "{\n  \"no_corrections_needed\": false,\n  \"corrections\": [\n    {\n      \"type\": \"reverse\",\n      \"source\": \"breakeven_10y\",\n      \"target\": \"real_10y\",\n      \"justification\": \"The Fisher decomposition defines nominal_yield = real_10y + breakeven_10y. The nominal 10-year Treasury yield is the directly observable, liquid market price; TIPS yields (real_10y) are less liquid and are derived from the spread between nominal Treasuries and TIPS. In market practice, breakeven inflation is computed AS the residual (nominal minus real), but causally the two are co-determined by the relative supply/demand in nominal vs. TIPS markets. However, the edge as listed (breakeven_10y -> real_10y) implies breakeven drives real yields, which is not the standard causal interpretation. More defensibly, fed_funds and monetary policy shift real_10y, and breakeven reflects inflation expectations separately. The current edge dxy -> real_10y and the existing fed_funds -> real_10y already cover real yield drivers. The breakeven -> real_10y edge is more plausibly a spurious correlation from their shared nominal yield parent, and should be removed rather than reversed.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"breakeven_10y\",\n      \"target\": \"real_10y\",\n      \"justification\": \"Breakeven inflation and real yields are both derived from nominal Treasury yields and TIPS yields \u2014 they are co-determined components of the same accounting identity (nominal = real + breakeven). Neither causally drives the other in a structural sense; both respond to shared upstream monetary policy and inflation drivers already represented in the graph (fed_funds, cpi_yoy, debt_gdp all point to real_10y and/or breakeven_10y). The edge breakeven_10y -> real_10y is a false positive arising from the mechanical relationship in the Fisher decomposition, not a genuine causal pathway.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"cb_purchases\",\n      \"target\": \"dxy\",\n      \"justification\": \"Central bank gold purchases represent a relatively small flow in the global FX market and do not plausibly move the DXY meaningfully. The DXY is determined by broad capital flows, Fed policy, and global risk sentiment \u2014 not by central bank gold accumulation. While large EM central bank reserve diversification away from dollars could theoretically weaken the dollar, this effect operates through FX reserve allocation broadly, not through gold purchases specifically. This edge is a false positive; gpr, fed_funds, and vix already capture the dominant DXY drivers in the graph.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"unemployment\",\n      \"target\": \"sp500_ret\",\n      \"justification\": \"While unemployment and equity returns share a business-cycle relationship, the causal direction from unemployment to monthly S&P 500 returns is not well-supported at the monthly frequency used here. Monthly equity returns are forward-looking and driven by surprises, not by the level of unemployment; furthermore, oecd_cli and ig_spread already capture the business-cycle and credit-stress channels into sp500_ret. The unemployment -> sp500_ret edge is more likely a spurious correlation from shared cyclical drivers (oecd_cli -> unemployment and oecd_cli -> sp500_ret are both already in the graph), making this a false positive.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"dxy\",\n      \"target\": \"real_10y\",\n      \"justification\": \"The causal mechanism from DXY to real 10-year TIPS yields is not well-established. Real yields are primarily driven by Fed monetary policy, inflation expectations, and fiscal conditions \u2014 all already represented by fed_funds, cpi_yoy, and debt_gdp edges into real_10y. A stronger dollar does not mechanically raise real Treasury yields; if anything the relationship runs the other way (higher real yields attract capital and strengthen the dollar). This edge is a false positive and the correct direction, if any, would be real_10y -> dxy, but even that is already partially captured through fed_funds -> dxy.\"\n    },\n    {\n      \"type\": \"add\",\n      \"source\": \"real_10y\",\n      \"target\": \"dxy\",\n      \"justification\": \"Higher U.S. real yields increase the real return differential in favor of dollar-denominated assets, attracting global capital inflows and strengthening the dollar (DXY). This is a well-documented carry and capital-flow mechanism: rising real yields make U.S. assets more attractive relative to foreign alternatives, increasing demand for dollars. The current graph has fed_funds -> dxy but is missing the real yield channel, which is distinct from and complementary to the nominal policy rate channel.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"epu\",\n      \"target\": \"vix\",\n      \"justification\": \"EPU and VIX are both uncertainty/risk-aversion indicators but measure distinct phenomena: EPU is a news-text measure of policy uncertainty while VIX is a market-price-derived measure of expected equity volatility. The causal direction from EPU to VIX is questionable \u2014 both are more plausibly co-determined by common upstream shocks (geopolitical events, recessions) already captured by gpr -> vix and gpr -> epu in the graph. EPU does not mechanically cause equity option implied volatility; they are parallel effects of shared causes, making this edge a likely false positive.\"\n    },\n    {\n      \"type\": \"remove\",\n      \"source\": \"unemployment\",\n      \"target\": \"jewelry_demand\",\n      \"justification\": \"Global jewelry demand is dominated by Indian and Chinese consumers whose purchasing decisions are driven by local income growth, cultural factors, and gold prices \u2014 not by U.S. unemployment. The oecd_cli -> jewelry_demand edge already captures the global economic cycle channel into jewelry demand. U.S. unemployment has negligible direct causal influence on global (predominantly EM) jewelry consumption patterns, making this edge a false positive from a spurious domestic-economy correlation.\"\n    }\n  ]\n}",
+  "parsed": {
+    "no_corrections_needed": false,
+    "corrections": [
+      {
+        "type": "reverse",
+        "source": "breakeven_10y",
+        "target": "real_10y",
+        "justification": "The Fisher decomposition defines nominal_yield = real_10y + breakeven_10y. The nominal 10-year Treasury yield is the directly observable, liquid market price; TIPS yields (real_10y) are less liquid and are derived from the spread between nominal Treasuries and TIPS. In market practice, breakeven inflation is computed AS the residual (nominal minus real), but causally the two are co-determined by the relative supply/demand in nominal vs. TIPS markets. However, the edge as listed (breakeven_10y -> real_10y) implies breakeven drives real yields, which is not the standard causal interpretation. More defensibly, fed_funds and monetary policy shift real_10y, and breakeven reflects inflation expectations separately. The current edge dxy -> real_10y and the existing fed_funds -> real_10y already cover real yield drivers. The breakeven -> real_10y edge is more plausibly a spurious correlation from their shared nominal yield parent, and should be removed rather than reversed."
+      },
+      {
+        "type": "remove",
+        "source": "breakeven_10y",
+        "target": "real_10y",
+        "justification": "Breakeven inflation and real yields are both derived from nominal Treasury yields and TIPS yields \u2014 they are co-determined components of the same accounting identity (nominal = real + breakeven). Neither causally drives the other in a structural sense; both respond to shared upstream monetary policy and inflation drivers already represented in the graph (fed_funds, cpi_yoy, debt_gdp all point to real_10y and/or breakeven_10y). The edge breakeven_10y -> real_10y is a false positive arising from the mechanical relationship in the Fisher decomposition, not a genuine causal pathway."
+      },
+      {
+        "type": "remove",
+        "source": "cb_purchases",
+        "target": "dxy",
+        "justification": "Central bank gold purchases represent a relatively small flow in the global FX market and do not plausibly move the DXY meaningfully. The DXY is determined by broad capital flows, Fed policy, and global risk sentiment \u2014 not by central bank gold accumulation. While large EM central bank reserve diversification away from dollars could theoretically weaken the dollar, this effect operates through FX reserve allocation broadly, not through gold purchases specifically. This edge is a false positive; gpr, fed_funds, and vix already capture the dominant DXY drivers in the graph."
+      },
+      {
+        "type": "remove",
+        "source": "unemployment",
+        "target": "sp500_ret",
+        "justification": "While unemployment and equity returns share a business-cycle relationship, the causal direction from unemployment to monthly S&P 500 returns is not well-supported at the monthly frequency used here. Monthly equity returns are forward-looking and driven by surprises, not by the level of unemployment; furthermore, oecd_cli and ig_spread already capture the business-cycle and credit-stress channels into sp500_ret. The unemployment -> sp500_ret edge is more likely a spurious correlation from shared cyclical drivers (oecd_cli -> unemployment and oecd_cli -> sp500_ret are both already in the graph), making this a false positive."
+      },
+      {
+        "type": "remove",
+        "source": "dxy",
+        "target": "real_10y",
+        "justification": "The causal mechanism from DXY to real 10-year TIPS yields is not well-established. Real yields are primarily driven by Fed monetary policy, inflation expectations, and fiscal conditions \u2014 all already represented by fed_funds, cpi_yoy, and debt_gdp edges into real_10y. A stronger dollar does not mechanically raise real Treasury yields; if anything the relationship runs the other way (higher real yields attract capital and strengthen the dollar). This edge is a false positive and the correct direction, if any, would be real_10y -> dxy, but even that is already partially captured through fed_funds -> dxy."
+      },
+      {
+        "type": "add",
+        "source": "real_10y",
+        "target": "dxy",
+        "justification": "Higher U.S. real yields increase the real return differential in favor of dollar-denominated assets, attracting global capital inflows and strengthening the dollar (DXY). This is a well-documented carry and capital-flow mechanism: rising real yields make U.S. assets more attractive relative to foreign alternatives, increasing demand for dollars. The current graph has fed_funds -> dxy but is missing the real yield channel, which is distinct from and complementary to the nominal policy rate channel."
+      },
+      {
+        "type": "remove",
+        "source": "epu",
+        "target": "vix",
+        "justification": "EPU and VIX are both uncertainty/risk-aversion indicators but measure distinct phenomena: EPU is a news-text measure of policy uncertainty while VIX is a market-price-derived measure of expected equity volatility. The causal direction from EPU to VIX is questionable \u2014 both are more plausibly co-determined by common upstream shocks (geopolitical events, recessions) already captured by gpr -> vix and gpr -> epu in the graph. EPU does not mechanically cause equity option implied volatility; they are parallel effects of shared causes, making this edge a likely false positive."
+      },
+      {
+        "type": "remove",
+        "source": "unemployment",
+        "target": "jewelry_demand",
+        "justification": "Global jewelry demand is dominated by Indian and Chinese consumers whose purchasing decisions are driven by local income growth, cultural factors, and gold prices \u2014 not by U.S. unemployment. The oecd_cli -> jewelry_demand edge already captures the global economic cycle channel into jewelry demand. U.S. unemployment has negligible direct causal influence on global (predominantly EM) jewelry consumption patterns, making this edge a false positive from a spurious domestic-economy correlation."
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 3,
+    "output_tokens": 1434,
+    "cache_creation_input_tokens": 11709,
+    "cache_read_input_tokens": 0
+  }
+}

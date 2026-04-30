@@ -1,0 +1,142 @@
+======================================================================
+Causal Inference - Direction Assignment Report
+======================================================================
+
+Model: claude-sonnet-4-6
+Min run count filter: >= 3/10 runs
+Input edges (after filter): 69
+Output directed edges: 70
+Unique output edge pairs: 69
+
+======================================================================
+Validation checks
+======================================================================
+Missing edges (input but not output): 0
+Extra edges (output but not input): 0
+Self-loops: 0
+Bidirectional candidates flagged: 16
+
+======================================================================
+Bidirectional candidate edges (flagged for validation)
+======================================================================
+  jewelry_demand -> gold_price
+    Reason: Jewelry demand represents the largest single category of physical gold consumption and directly affects total demand, which supports prices. While hig
+  etf_flows -> gold_price
+    Reason: ETF inflows require physical gold to be vaulted, directly removing supply from the market and adding investment demand, which mechanically supports pr
+  unemployment -> fed_funds
+    Reason: The Federal Reserve explicitly targets maximum employment under its dual mandate, adjusting the Fed Funds rate in response to labor-market conditions;
+  silver -> gold_price
+    Reason: Silver and gold share overlapping macro demand drivers (inflation hedge, safe-haven), and silver returns reflect those shared drivers; the gold market
+  vix -> ig_spread
+    Reason: VIX reflects broad financial-market risk aversion and uncertainty, which feeds into credit markets as investors demand higher compensation for corpora
+  oil_wti -> gold_price
+    Reason: Rising oil prices increase gold mining and transportation costs and signal inflationary pressure, both channels supporting higher gold prices. While s
+  ig_spread -> sp500_ret
+    Reason: Widening credit spreads reflect deteriorating corporate financial conditions and tighter credit availability, which negatively impact equity valuation
+  ig_spread -> unemployment
+    Reason: Widening credit spreads signal tighter financial conditions and rising recession risk, which lead to reduced corporate hiring and investment, ultimate
+  oecd_cli -> oil_wti
+    Reason: Global economic activity is the primary driver of crude oil demand; an improving CLI signals stronger industrial and transportation activity, increasi
+  sp500_ret -> vix
+    Reason: Large negative S&P 500 returns mechanically drive VIX spikes through the leverage effect and the demand for protective put options; VIX is constructed
+  oil_wti -> silver
+    Reason: Silver has substantial industrial demand (solar, electronics, EVs) that responds to global economic activity, similar to industrial commodities like o
+  sp500_ret -> mich_pessim
+    Reason: Negative equity market returns signal deteriorating economic conditions and wealth losses that feed directly into consumer pessimism about multi-year 
+  unemployment -> cpi_yoy
+    Reason: Through the Phillips curve mechanism, lower unemployment reflecting tighter labor markets generates wage and price inflation, while higher unemploymen
+  dxy -> oil_wti
+    Reason: Oil is priced in dollars globally; a stronger dollar makes oil more expensive for foreign buyers, reducing international demand and putting downward p
+  unemployment -> sp500_ret
+    Reason: Rising unemployment signals weaker economic conditions and reduced corporate earnings expectations, typically weighing on equity returns. While this e
+  breakeven_10y -> real_10y
+    Reason: By construction, the nominal 10-year yield equals real_10y plus breakeven_10y; when break-even inflation rises and the nominal yield is sticky, real y
+
+======================================================================
+All directed edges
+======================================================================
+  jewelry_demand -> gold_price [BIDIR]
+  etf_flows -> gold_price [BIDIR]
+  mine_prod -> gold_price
+  unemployment -> fed_funds [BIDIR]
+  silver -> gold_price [BIDIR]
+  fed_funds -> breakeven_10y
+  gpr -> cb_purchases
+  vix -> ig_spread [BIDIR]
+  cpi_yoy -> breakeven_10y
+  debt_gdp -> breakeven_10y
+  fed_funds -> breakeven_10y
+  breakeven_10y -> gold_price
+  oil_wti -> breakeven_10y
+  cb_purchases -> gold_price
+  cpi_yoy -> fed_funds
+  cpi_yoy -> gold_price
+  oil_wti -> cpi_yoy
+  debt_gdp -> gold_price
+  fed_funds -> dxy
+  dxy -> gold_price
+  epu -> gold_price
+  epu -> ig_spread
+  epu -> vix
+  fed_funds -> gold_price
+  fed_funds -> real_10y
+  gpr -> gold_price
+  ig_spread -> gold_price
+  mich_pessim -> gold_price
+  oecd_cli -> gold_price
+  oil_wti -> gold_price [BIDIR]
+  real_10y -> gold_price
+  sp500_ret -> gold_price
+  unemployment -> gold_price
+  vix -> gold_price
+  gpr -> oil_wti
+  gpr -> vix
+  ig_spread -> sp500_ret [BIDIR]
+  ig_spread -> unemployment [BIDIR]
+  oecd_cli -> jewelry_demand
+  unemployment -> mich_pessim
+  oecd_cli -> oil_wti [BIDIR]
+  oecd_cli -> sp500_ret
+  oecd_cli -> unemployment
+  sp500_ret -> vix [BIDIR]
+  cpi_yoy -> real_10y
+  debt_gdp -> real_10y
+  real_10y -> dxy
+  oil_wti -> silver [BIDIR]
+  gpr -> epu
+  vix -> etf_flows
+  epu -> mich_pessim
+  epu -> sp500_ret
+  oecd_cli -> ig_spread
+  sp500_ret -> mich_pessim [BIDIR]
+  real_10y -> etf_flows
+  mich_pessim -> jewelry_demand
+  oil_wti -> mine_prod
+  unemployment -> cpi_yoy [BIDIR]
+  gpr -> dxy
+  dxy -> oil_wti [BIDIR]
+  vix -> dxy
+  gpr -> ig_spread
+  epu -> etf_flows
+  unemployment -> jewelry_demand
+  unemployment -> sp500_ret [BIDIR]
+  cb_purchases -> dxy
+  debt_gdp -> epu
+  debt_gdp -> ig_spread
+  mich_pessim -> etf_flows
+  breakeven_10y -> real_10y [BIDIR]
+
+======================================================================
+Token usage and cost
+======================================================================
+Uncached input tokens: 3
+Cache creation tokens: 15,633
+Cache read tokens: 0
+Output tokens: 7,296
+
+Estimated cost (Sonnet 4.6 pricing):
+  Uncached input: $0.0000
+  Cache creation: $0.0586
+  Cache reads:    $0.0000
+  Output:         $0.1094
+  TOTAL:          $0.1681

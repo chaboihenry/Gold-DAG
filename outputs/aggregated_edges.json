@@ -1,0 +1,3274 @@
+[
+  {
+    "node_a": "gold_price",
+    "node_b": "jewelry_demand",
+    "count": 18,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Jewelry consumption is the largest single component of physical gold demand; higher jewelry demand directly increases total demand and supports gold prices, while high prices also feed back to suppress price-sensitive jewelry buyers."
+      },
+      {
+        "run_id": 1,
+        "text": "Gold price levels inversely affect jewelry demand in price-sensitive consumer markets (India, China, Middle East), where high prices reduce purchasing volume \u2014 a feedback loop from price to physical consumption demand."
+      },
+      {
+        "run_id": 2,
+        "text": "Jewelry consumption is the largest single category of physical gold demand; higher jewelry offtake tightens the physical gold market and supports prices, while weak demand eases price pressure."
+      },
+      {
+        "run_id": 2,
+        "text": "Gold price levels inversely affect jewelry demand through a standard price-quantity mechanism: higher gold prices reduce affordability for price-sensitive consumers in India, China, and the Middle East, reducing offtake."
+      },
+      {
+        "run_id": 3,
+        "text": "Jewelry is the largest category of physical gold demand; higher jewelry consumption adds to total demand supporting prices, and conversely high gold prices reduce jewelry purchases in price-sensitive consumer markets."
+      },
+      {
+        "run_id": 3,
+        "text": "Higher gold prices raise the cost of jewelry for price-sensitive consumers in India, China, and other major markets, creating an inverse demand response that reduces jewelry consumption."
+      },
+      {
+        "run_id": 4,
+        "text": "Jewelry consumption is the largest single category of physical gold demand; higher jewelry demand adds to total physical demand and supports prices, while high prices inversely suppress jewelry purchases in price-sensitive emerging markets, creating a feedback loop."
+      },
+      {
+        "run_id": 4,
+        "text": "Jewelry demand represents the largest single component of physical gold demand, and its price sensitivity creates a feedback: high gold prices suppress price-sensitive consumer jewelry demand in India and China, partially moderating price increases."
+      },
+      {
+        "run_id": 5,
+        "text": "Jewelry consumption is the largest single category of physical gold demand; higher jewelry demand tightens the physical market and supports prices, while jewelry demand itself responds inversely to gold price levels in price-sensitive consumer markets."
+      },
+      {
+        "run_id": 6,
+        "text": "Jewelry consumption is the largest single category of physical gold demand; higher jewelry demand tightens physical supply and supports prices, while high prices inversely reduce price-sensitive consumer jewelry purchases."
+      },
+      {
+        "run_id": 7,
+        "text": "Jewelry consumption is the largest single category of physical gold demand; higher jewelry demand adds to total demand and supports prices, while high prices inversely reduce price-sensitive consumer purchases."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher gold prices directly reduce the purchasing power of jewelry consumers, especially in price-sensitive emerging markets like India, creating an inverse demand response where higher prices suppress jewelry consumption volumes."
+      },
+      {
+        "run_id": 8,
+        "text": "Jewelry consumption is the largest single category of gold demand; higher jewelry purchases increase total physical demand and support gold prices, while high gold prices inversely suppress price-sensitive jewelry buying."
+      },
+      {
+        "run_id": 8,
+        "text": "Gold price levels causally affect jewelry demand in price-sensitive consumer markets (India, China); high gold prices reduce affordability and suppress jewelry consumption, creating a feedback from price to demand."
+      },
+      {
+        "run_id": 9,
+        "text": "Jewelry consumption represents the largest single category of physical gold demand; higher jewelry demand supports gold prices, and there is also an inverse feedback as high gold prices make jewelry less affordable in price-sensitive consumer markets."
+      },
+      {
+        "run_id": 9,
+        "text": "Already listed above."
+      },
+      {
+        "run_id": 10,
+        "text": "Jewelry demand is the largest single category of physical gold consumption; higher jewelry purchases increase total demand and support prices, while the price level itself inversely affects jewelry demand in price-sensitive consumer markets."
+      },
+      {
+        "run_id": 10,
+        "text": "As already stated above, jewelry demand constitutes the largest share of physical gold demand and directly supports gold prices, while gold price levels inversely affect price-sensitive jewelry consumers in India and China."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "gold_price",
+    "count": 15,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "ETF inflows require physical gold to be vaulted to back new shares, directly removing supply from the market and adding investment demand; net outflows release gold back and weigh on prices."
+      },
+      {
+        "run_id": 2,
+        "text": "ETF net inflows physically remove gold from available market supply as funds must hold bullion to back new shares, directly adding to demand and supporting prices; outflows release supply and depress prices."
+      },
+      {
+        "run_id": 2,
+        "text": "Rising gold prices can attract momentum-driven institutional inflows into gold ETFs, while falling prices can trigger redemptions; price momentum affects investor sentiment toward ETF products."
+      },
+      {
+        "run_id": 3,
+        "text": "Gold ETF net inflows require physical gold to be purchased and vaulted, directly increasing demand and removing supply from the market, while outflows release physical gold and pressure prices lower."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising gold prices attract momentum-driven institutional and retail investors into gold ETFs, while falling prices trigger redemptions; gold price momentum directly influences ETF flow direction."
+      },
+      {
+        "run_id": 4,
+        "text": "ETF net inflows require physical gold purchases to back new shares, directly removing metal from the market and supporting prices; outflows release physical gold and pressure prices, making ETF flows a direct investment-demand channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Gold ETF net inflows require physical gold purchases to back new share issuance, directly adding to physical demand and supporting prices; outflows require selling physical gold, releasing supply and pressing prices lower."
+      },
+      {
+        "run_id": 6,
+        "text": "Positive ETF net inflows require physical gold purchases to back new shares, directly removing supply from the market and supporting prices; outflows release physical gold and pressure prices."
+      },
+      {
+        "run_id": 7,
+        "text": "ETF inflows require physical gold purchases to back new shares, directly removing gold from the market and adding to demand, while outflows release gold back and pressure prices downward."
+      },
+      {
+        "run_id": 7,
+        "text": "Gold price movements influence investor sentiment and momentum-driven ETF allocation decisions; rising prices attract trend-following inflows while sustained price declines can trigger redemptions and outflows."
+      },
+      {
+        "run_id": 8,
+        "text": "ETF inflows require physical gold to be vaulted to back new shares, directly removing supply from the market; net outflows release physical gold back, representing a direct investment-demand channel with immediate price impact."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising gold prices attract momentum-driven and return-chasing institutional investors into gold ETFs, while falling prices trigger outflows; price levels influence investor sentiment and thus ETF flow direction."
+      },
+      {
+        "run_id": 9,
+        "text": "Gold ETF inflows require physical gold to be purchased and vaulted, directly adding to demand and removing supply from circulation, while outflows release physical gold and reduce demand, with immediate price impact."
+      },
+      {
+        "run_id": 9,
+        "text": "Already listed above \u2014 included for completeness in the output but not duplicated."
+      },
+      {
+        "run_id": 10,
+        "text": "ETF inflows contractually require physical gold purchases, directly removing gold from available market supply and supporting prices; outflows release physical gold back into circulation and pressure prices downward."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "mine_prod",
+    "count": 14,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Mine production is the primary source of new physical gold supply; holding demand constant, higher mine output increases available supply and exerts downward pressure on gold prices."
+      },
+      {
+        "run_id": 2,
+        "text": "Mine production is the primary source of new gold supply; holding demand constant, higher production increases available supply and exerts downward pressure on price, while lower production constrains supply and supports higher prices."
+      },
+      {
+        "run_id": 3,
+        "text": "Mine production is the primary supply-side flow into gold markets; higher production increases available supply and exerts downward pressure on price, holding demand constant."
+      },
+      {
+        "run_id": 3,
+        "text": "Sustained high gold prices improve mining economics and incentivize new mine development and production expansion, though the supply response operates with long lags due to mine development timescales."
+      },
+      {
+        "run_id": 4,
+        "text": "Mine production is the primary supply-side flow of new gold; higher production increases available supply and exerts downward pressure on price, while lower production constrains supply and supports higher prices, all else equal."
+      },
+      {
+        "run_id": 5,
+        "text": "Mine production is the primary supply-side flow into the gold market; holding demand constant, higher production increases available supply and exerts downward pressure on prices, while lower production constrains supply and supports prices."
+      },
+      {
+        "run_id": 6,
+        "text": "Higher mine production increases physical gold supply, exerting downward pressure on price; lower production constrains supply and supports higher prices, per standard supply-demand mechanics."
+      },
+      {
+        "run_id": 7,
+        "text": "Mine production is the primary supply-side flow of new gold; holding demand constant, higher production increases available supply and exerts downward pressure on gold price."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher sustained gold prices improve the economics of marginal mines and incentivize expansion, eventually increasing mine production, though with multi-year lags due to mine development timelines."
+      },
+      {
+        "run_id": 8,
+        "text": "Mine production is the primary physical supply flow in the gold market; higher mine output increases available supply and exerts downward pressure on gold prices, holding demand constant."
+      },
+      {
+        "run_id": 8,
+        "text": "Sustained higher gold prices improve mine economics and incentivize production expansion over medium-to-long horizons, though the supply response is slow due to multi-year development lead times."
+      },
+      {
+        "run_id": 9,
+        "text": "Mine production is the primary physical supply flow into gold markets; higher production increases available supply and exerts downward pressure on price, while supply constraints support higher prices, per standard commodity supply-demand mechanics."
+      },
+      {
+        "run_id": 9,
+        "text": "Already listed above."
+      },
+      {
+        "run_id": 10,
+        "text": "Mine production is the primary supply-side flow into the gold market; higher production increases available supply and exerts downward pressure on price, while supply constraints support higher prices."
+      }
+    ]
+  },
+  {
+    "node_a": "fed_funds",
+    "node_b": "unemployment",
+    "count": 12,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Unemployment is one of the two primary inputs into Fed policy under the dual mandate; rising unemployment historically triggers Fed rate cuts (lower Fed Funds), while labor-market tightness contributes to rate hikes."
+      },
+      {
+        "run_id": 2,
+        "text": "The unemployment rate is a primary input into Fed monetary policy under its dual mandate; rising unemployment causes the Fed to cut rates, while falling unemployment permits or necessitates tightening."
+      },
+      {
+        "run_id": 3,
+        "text": "Under the Fed's dual mandate, rising unemployment signals labor-market weakness that prompts monetary easing (lower Fed Funds), while falling unemployment toward full employment supports tightening."
+      },
+      {
+        "run_id": 4,
+        "text": "The Fed's dual mandate includes maximum employment; rising unemployment typically causes the Fed to lower the Fed Funds rate to stimulate economic activity, while falling unemployment removes the constraint on rate increases."
+      },
+      {
+        "run_id": 5,
+        "text": "The Federal Reserve's dual mandate includes maximum employment; rising unemployment is a primary trigger for Fed rate cuts, while falling unemployment toward full employment allows or prompts rate increases."
+      },
+      {
+        "run_id": 6,
+        "text": "Under the Fed's dual mandate, rising unemployment prompts monetary easing (lower Fed Funds), while falling unemployment toward full employment supports rate increases."
+      },
+      {
+        "run_id": 7,
+        "text": "The Fed's dual mandate links monetary policy to labor markets; higher policy rates slow economic activity and raise unemployment, while lower rates stimulate employment \u2014 a core monetary transmission channel."
+      },
+      {
+        "run_id": 7,
+        "text": "Under the Fed's dual mandate, rising unemployment is a direct trigger for policy rate cuts to stimulate employment, while falling unemployment toward the natural rate allows tightening to contain inflation."
+      },
+      {
+        "run_id": 8,
+        "text": "The Fed's maximum-employment mandate means rising unemployment directly causally prompts FOMC easing (lower Fed Funds rate), while falling unemployment toward full employment gives the Fed room or reason to tighten."
+      },
+      {
+        "run_id": 9,
+        "text": "The Fed's dual mandate explicitly includes maximum employment; rising unemployment triggers monetary easing (lower Fed Funds rate) and falling unemployment prompts tightening, making the unemployment rate a direct causal input into Fed Funds decisions."
+      },
+      {
+        "run_id": 10,
+        "text": "The Fed Funds rate is the primary monetary-policy lever aimed at achieving maximum employment; higher rates slow aggregate demand and raise unemployment, while lower rates stimulate hiring through the standard monetary-transmission channel."
+      },
+      {
+        "run_id": 10,
+        "text": "The Fed Funds rate is set under the Fed's dual mandate including maximum employment; rising unemployment triggers monetary easing (rate cuts), while a tight labor market with low unemployment may prompt tightening."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "silver",
+    "count": 12,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Silver and gold share overlapping inflation-hedge and safe-haven demand drivers; they trade as substitutes and complements in investor portfolios, so shocks to silver prices (or their shared demand drivers) cause gold price movements and vice versa."
+      },
+      {
+        "run_id": 2,
+        "text": "Silver and gold share inflation-hedge, safe-haven, and monetary-debasement demand drivers, so shocks that drive one precious metal tend to spill over to the other through shared investor demand channels."
+      },
+      {
+        "run_id": 3,
+        "text": "Silver and gold share overlapping inflation-hedge and safe-haven demand drivers; price movements in one precious metal tend to co-move with the other through shared investor demand channels and portfolio substitution effects."
+      },
+      {
+        "run_id": 3,
+        "text": "Gold price movements lead silver through portfolio substitution and shared precious-metals investor sentiment; gold is the primary precious metals benchmark and silver often follows gold directionally."
+      },
+      {
+        "run_id": 4,
+        "text": "Silver and gold share overlapping monetary and inflation-hedge demand drivers, so shocks to silver prices reflect and transmit common precious-metals market dynamics; the gold-silver ratio is actively arbitraged by traders, creating a direct price linkage."
+      },
+      {
+        "run_id": 5,
+        "text": "Silver and gold share overlapping drivers (inflation hedging, safe-haven demand, monetary-debasement concerns) and are actively arbitraged against one another through the gold-silver ratio; a causal relationship runs in both directions through shared investment demand and cross-market arbitrage."
+      },
+      {
+        "run_id": 6,
+        "text": "Silver and gold share overlapping inflation-hedge and safe-haven demand drivers, so common shocks (inflation expectations, financial stress, monetary debasement) move both prices, and arbitrage between the two precious metals creates direct price linkage."
+      },
+      {
+        "run_id": 7,
+        "text": "Silver and gold share overlapping inflation-hedge, safe-haven, and monetary-debasement demand drivers, and are actively traded as substitutes/complements so shocks to one precious-metal market transmit to the other."
+      },
+      {
+        "run_id": 7,
+        "text": "Gold and silver prices are co-determined through shared investment demand channels; movements in gold prices shift relative precious-metal valuations and trigger arbitrage and substitution flows between the two metals."
+      },
+      {
+        "run_id": 8,
+        "text": "Silver and gold share overlapping demand drivers \u2014 inflation expectations, safe-haven demand, monetary debasement concerns \u2014 so shocks to precious-metals sentiment simultaneously affect both prices through shared investor demand channels."
+      },
+      {
+        "run_id": 9,
+        "text": "Silver and gold share overlapping demand drivers (inflation hedging, safe-haven demand, monetary debasement concerns) and are actively arbitraged by precious-metals investors, creating a direct co-movement relationship between their prices."
+      },
+      {
+        "run_id": 10,
+        "text": "Silver and gold share overlapping inflation-hedge and safe-haven demand drivers; they are jointly priced by common macro-financial factors, and arbitrage activity in the gold-silver ratio links their price dynamics."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "real_10y",
+    "count": 11,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "By construction, the nominal 10-year yield equals real_10y plus breakeven_10y, so changes in break-even inflation mechanically affect the observed real yield given the nominal yield, and vice versa."
+      },
+      {
+        "run_id": 2,
+        "text": "By construction, the 10-year nominal yield equals the real yield plus break-even inflation, so movements in break-even directly affect the decomposition of nominal yields into real and inflation components."
+      },
+      {
+        "run_id": 3,
+        "text": "Real yields and break-even inflation are arithmetic components of the nominal Treasury yield (nominal = real + break-even); changes in one component mechanically affect the relationship between the others when nominal yields adjust."
+      },
+      {
+        "run_id": 4,
+        "text": "By construction, the nominal 10-year yield equals the real TIPS yield plus the breakeven inflation rate, so changes in the real yield mechanically affect the breakeven when the nominal yield is held constant, and both are jointly determined by monetary and inflation expectations."
+      },
+      {
+        "run_id": 5,
+        "text": "By arithmetic construction, the break-even rate is the difference between the nominal yield and the real TIPS yield; shocks to inflation expectations directly shift the spread between nominal and real yields, linking the two variables mechanically."
+      },
+      {
+        "run_id": 6,
+        "text": "Real yields and break-even inflation together decompose the nominal 10-year Treasury yield by construction (nominal = real + breakeven), so changes in one component mechanically relate to the other given nominal yield dynamics."
+      },
+      {
+        "run_id": 7,
+        "text": "The nominal 10-year yield is arithmetically the sum of the real TIPS yield and the break-even inflation rate, so changes in either component mechanically affect the other through yield-curve decomposition."
+      },
+      {
+        "run_id": 7,
+        "text": "As the arithmetic decomposition of the nominal yield, changes in break-even inflation shift real yields in the opposite direction for a given nominal yield level, creating a direct mechanical relationship between the two components."
+      },
+      {
+        "run_id": 8,
+        "text": "By construction, the 10-year break-even equals the nominal yield minus the real TIPS yield, so movements in break-even inflation are arithmetically and mechanically linked to real yields given a nominal yield level."
+      },
+      {
+        "run_id": 9,
+        "text": "The 10-year nominal yield is the arithmetic sum of the real TIPS yield and the breakeven inflation rate; changes in one component mechanically co-determine the other, and both are priced simultaneously in the Treasury and TIPS markets."
+      },
+      {
+        "run_id": 10,
+        "text": "By construction, the nominal 10-year yield equals the real yield plus break-even inflation; changes in real yields and break-evens are arithmetically linked through the nominal yield, and movements in one component mechanically affect the other in the Fisher decomposition."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "gpr",
+    "count": 11,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Elevated geopolitical risk, particularly the post-2022 freezing of Russian FX reserves, has accelerated central-bank gold accumulation as a way to hold reserves outside the reach of potential sanctions, linking GPR to official-sector purchases."
+      },
+      {
+        "run_id": 2,
+        "text": "Elevated geopolitical risk motivates central banks \u2014 particularly emerging-market central banks \u2014 to accumulate gold reserves as a hedge against sanctions risk and geopolitical exposure of FX reserves."
+      },
+      {
+        "run_id": 3,
+        "text": "Geopolitical risk and sanctions events \u2014 such as the freezing of Russian FX reserves in 2022 \u2014 directly incentivize central banks to accumulate gold as a reserve asset outside the dollar system, driving net purchases."
+      },
+      {
+        "run_id": 3,
+        "text": "Geopolitical risk events and sanctions threats directly incentivize central banks \u2014 particularly in emerging markets \u2014 to diversify reserves into gold away from dollar-denominated assets vulnerable to sanctions."
+      },
+      {
+        "run_id": 4,
+        "text": "Geopolitical risk, particularly the post-2022 freezing of Russian FX reserves, has directly motivated central banks (especially in emerging markets) to accelerate gold accumulation as a reserve asset immune to sanctions and geopolitical asset-freezing risk."
+      },
+      {
+        "run_id": 5,
+        "text": "Geopolitical risk, particularly the risk of sanctions or asset freezes, has prompted central banks \u2014 especially emerging-market central banks \u2014 to accelerate gold purchases as a sanction-proof reserve asset outside the dollar system."
+      },
+      {
+        "run_id": 6,
+        "text": "Elevated geopolitical risk motivates central banks \u2014 particularly those in emerging markets concerned about sanctions or dollar-asset freezes \u2014 to accelerate strategic gold reserve accumulation."
+      },
+      {
+        "run_id": 7,
+        "text": "Elevated geopolitical risk, particularly the post-2022 freezing of Russian FX reserves, caused emerging-market central banks to accelerate gold accumulation to reduce exposure to sanctionable dollar-denominated assets."
+      },
+      {
+        "run_id": 8,
+        "text": "Geopolitical risk \u2014 particularly the risk of sanctions on FX reserves as illustrated by post-2022 Russian reserve freezes \u2014 has directly motivated central bank diversification into gold, driving net purchases."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical risk events \u2014 particularly the freezing of Russian FX reserves in 2022 \u2014 motivate central banks in emerging markets to accelerate gold purchases as a sanction-proof reserve asset, directly linking GPR to official-sector gold demand."
+      },
+      {
+        "run_id": 10,
+        "text": "Geopolitical risk, particularly sanctions risk and reserve-freezing events (e.g., Russia 2022), motivates central banks to diversify away from dollar-denominated reserves into gold, directly driving central-bank purchase flows."
+      }
+    ]
+  },
+  {
+    "node_a": "ig_spread",
+    "node_b": "vix",
+    "count": 11,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Credit-market stress and equity-market volatility are jointly driven by financial-system risk episodes; widening IG spreads and rising VIX co-occur during periods of systemic financial stress as both reflect rising risk aversion."
+      },
+      {
+        "run_id": 2,
+        "text": "Credit stress and equity-market stress are simultaneously driven by broader financial-system risk; widening IG spreads and rising VIX co-move during periods of financial distress and each amplifies the other."
+      },
+      {
+        "run_id": 2,
+        "text": "Equity market stress and credit market stress are simultaneously manifestations of broader financial-system risk aversion; VIX spikes and credit spread widening are strongly co-determined during risk-off episodes."
+      },
+      {
+        "run_id": 3,
+        "text": "Credit spreads and equity volatility both reflect financial market stress and are driven by common underlying risk-aversion shocks; stress episodes simultaneously widen credit spreads and spike VIX."
+      },
+      {
+        "run_id": 4,
+        "text": "Equity-market volatility and credit spreads are jointly driven by financial-market stress; elevated VIX reflects broad risk aversion that simultaneously raises the risk premium demanded on corporate debt, widening IG spreads."
+      },
+      {
+        "run_id": 5,
+        "text": "Credit stress and equity volatility frequently co-move during financial crises as both reflect rising risk aversion and deteriorating financial conditions; widening spreads often accompany or precede VIX spikes."
+      },
+      {
+        "run_id": 6,
+        "text": "Elevated equity-market volatility (VIX) typically coincides with increased perceived credit risk, causing credit spreads to widen as investors demand greater compensation for holding corporate debt during periods of financial stress."
+      },
+      {
+        "run_id": 7,
+        "text": "Equity-market stress and credit-market stress are jointly driven by risk-aversion episodes; spikes in VIX typically coincide with widening credit spreads as investors simultaneously reduce exposure to equities and corporate debt."
+      },
+      {
+        "run_id": 8,
+        "text": "Credit stress and equity volatility are jointly driven by financial-system risk aversion; widening spreads and rising VIX reflect and reinforce each other during periods of financial distress."
+      },
+      {
+        "run_id": 9,
+        "text": "Market stress episodes that drive VIX higher typically also drive flight-to-safety out of corporate debt into Treasuries, causing IG credit spreads to widen; both indices capture correlated but distinct dimensions of financial-market stress."
+      },
+      {
+        "run_id": 10,
+        "text": "Financial-market stress reflected in VIX spikes is typically accompanied by widening credit spreads as risk aversion increases; both measure related but distinct dimensions of financial stress and tend to move together during risk-off episodes."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "cpi_yoy",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Realized inflation outcomes update market participants' inflation expectations; persistent above-target realized inflation tends to push break-even inflation higher as investors revise long-run price expectations upward."
+      },
+      {
+        "run_id": 2,
+        "text": "Realized CPI prints update market participants' beliefs about future inflation, causing break-even inflation expectations to adjust in the same direction as realized outcomes."
+      },
+      {
+        "run_id": 3,
+        "text": "Realized CPI inflation updates investors' priors about future inflation, directly influencing the level of market-implied break-even inflation expectations embedded in TIPS pricing."
+      },
+      {
+        "run_id": 4,
+        "text": "Realized CPI inflation directly informs and anchors market participants' forward inflation expectations; persistently high realized inflation causes investors to revise upward their long-run inflation expectations, raising breakeven rates."
+      },
+      {
+        "run_id": 5,
+        "text": "Realized inflation outcomes inform and anchor market participants' forward inflation expectations; persistently high or low realized CPI typically causes break-even inflation rates to adjust in the same direction."
+      },
+      {
+        "run_id": 6,
+        "text": "Realized inflation updates investor beliefs about future inflation, causing market-implied break-even inflation expectations to adjust in the same direction."
+      },
+      {
+        "run_id": 7,
+        "text": "Realized inflation outcomes update investor priors about future inflation, causing break-even rates to adjust toward observed inflation trends through adaptive expectations mechanisms."
+      },
+      {
+        "run_id": 8,
+        "text": "Realized inflation outcomes update market participants' inflation expectations, causing break-even inflation rates to adjust as investors revise their forward-looking inflation pricing."
+      },
+      {
+        "run_id": 9,
+        "text": "Realized CPI inflation updates investor beliefs about future inflation, feeding directly into market-implied inflation expectations (breakeven rates); persistent realized inflation typically pulls long-run breakeven expectations higher."
+      },
+      {
+        "run_id": 10,
+        "text": "Realized CPI inflation informs and anchors market inflation expectations; persistent above-target realized inflation causes investors to revise upward their long-run inflation expectations, raising break-even rates."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "debt_gdp",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Elevated and rising government debt burdens raise market concerns about fiscal sustainability and the potential for inflationary debt monetization, which can push long-run inflation expectations (break-even inflation) higher."
+      },
+      {
+        "run_id": 2,
+        "text": "High government debt levels raise the probability of inflation as a debt-management tool, pushing long-term inflation expectations upward as reflected in break-even rates."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising government debt raises concerns about future monetization and inflationary fiscal policy, pushing long-term inflation expectations embedded in break-even rates higher."
+      },
+      {
+        "run_id": 4,
+        "text": "Rapidly rising government debt raises concerns about eventual monetization or fiscal-dominance scenarios where the central bank accommodates deficits with expansionary policy, causing bond markets to price in higher long-run inflation through wider breakevens."
+      },
+      {
+        "run_id": 5,
+        "text": "Higher government debt burdens raise the probability that the sovereign will tolerate or engineer higher inflation to erode the real debt stock, lifting long-run inflation expectations reflected in break-even rates."
+      },
+      {
+        "run_id": 6,
+        "text": "A rising debt-to-GDP ratio raises concerns about future monetization or fiscal dominance, which can push long-term inflation expectations (break-even) higher as investors anticipate inflationary debt management."
+      },
+      {
+        "run_id": 7,
+        "text": "Rising fiscal debt burdens raise market concerns about long-run monetization and currency debasement, causing investors to price in higher future inflation through elevated break-even rates."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher government debt burdens raise the perceived probability of future inflationary debt monetization, pushing up market-implied long-run inflation expectations embedded in break-even rates."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising government debt burdens raise investor concerns about long-run fiscal sustainability and potential monetization of debt through inflation, pushing long-run inflation expectations and breakeven rates higher."
+      },
+      {
+        "run_id": 10,
+        "text": "High and rising government debt raises the perceived risk of future monetization and inflation, causing investors to demand higher inflation compensation in nominal bond pricing, pushing up break-even inflation rates."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "fed_funds",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Monetary policy credibility directly shapes long-run inflation expectations; when the Fed tightens policy aggressively, break-even inflation falls as markets expect future inflation to be contained, and vice versa during easing cycles."
+      },
+      {
+        "run_id": 2,
+        "text": "Monetary policy directly shapes inflation expectations; a tighter Fed Funds rate signals commitment to lower inflation, compressing break-even inflation, while easing raises inflation expectations."
+      },
+      {
+        "run_id": 3,
+        "text": "Monetary policy tightening via higher Fed Funds rates signals the Fed's commitment to controlling inflation, which directly suppresses market-implied long-term inflation expectations embedded in break-even rates."
+      },
+      {
+        "run_id": 4,
+        "text": "Monetary policy rate changes affect inflation expectations; a higher Fed Funds rate signals tighter policy aimed at reducing inflation, which typically lowers breakeven inflation rates as markets anticipate successful disinflation."
+      },
+      {
+        "run_id": 5,
+        "text": "Monetary policy directly shapes long-run inflation expectations; a more accommodative Fed Funds rate signals easier monetary conditions and tends to lift break-even inflation, while tightening suppresses inflation expectations."
+      },
+      {
+        "run_id": 6,
+        "text": "Changes in the Fed Funds rate signal shifts in monetary policy stance, which alter market expectations about future inflation and thus affect break-even inflation rates."
+      },
+      {
+        "run_id": 7,
+        "text": "Fed policy rate changes signal the Fed's inflation-fighting resolve; tightening tends to compress inflation expectations embedded in break-even rates, while easing can allow expectations to drift higher."
+      },
+      {
+        "run_id": 8,
+        "text": "Monetary policy settings influence market inflation expectations; a tighter Fed Funds rate signals a credible anti-inflation stance, compressing break-even inflation, while easing raises inflation expectations."
+      },
+      {
+        "run_id": 9,
+        "text": "Monetary policy tightening (rising Fed Funds) signals the Fed's intention to suppress inflation, which tends to reduce long-run inflation expectations embedded in breakeven rates; easing has the opposite effect."
+      },
+      {
+        "run_id": 10,
+        "text": "Fed Funds rate changes signal the Fed's inflation-management stance; accommodative policy raises inflation expectations (break-evens), while tightening suppresses them through the expectations channel."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Break-even inflation captures market-implied long-run inflation expectations; rising inflation expectations increase demand for inflation-hedge assets including gold, pushing prices higher."
+      },
+      {
+        "run_id": 2,
+        "text": "Break-even inflation captures market-implied inflation expectations; rising expectations increase demand for inflation-hedge assets like gold, pushing prices higher."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising market-implied inflation expectations increase demand for gold as an inflation hedge, directly supporting higher gold prices through the expectations channel."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising market-implied inflation expectations increase demand for gold as an inflation hedge, as investors anticipate erosion of fiat currency purchasing power and seek real-asset protection."
+      },
+      {
+        "run_id": 5,
+        "text": "Break-even inflation captures the market's forward-looking inflation expectations, and gold is widely held as an inflation hedge; rising long-run inflation expectations increase demand for gold as a store of real value."
+      },
+      {
+        "run_id": 6,
+        "text": "Rising market-implied inflation expectations increase demand for gold as an inflation hedge, pushing gold prices higher through the expectations channel."
+      },
+      {
+        "run_id": 7,
+        "text": "Rising long-term inflation expectations increase demand for inflation-hedge assets including gold, as investors seek to preserve real purchasing power against anticipated currency erosion."
+      },
+      {
+        "run_id": 8,
+        "text": "Break-even inflation captures market forward inflation expectations; when long-run inflation expectations rise, investors demand gold as an inflation hedge, pushing its price higher."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising long-term inflation expectations increase demand for inflation-hedge assets including gold, pushing its price higher. This captures the forward-looking expectations channel of gold's inflation-hedge role."
+      },
+      {
+        "run_id": 10,
+        "text": "Rising market-implied inflation expectations increase demand for inflation-hedge assets including gold, directly supporting higher gold prices through the inflation-expectations channel."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "oil_wti",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Oil price movements are a leading driver of inflation expectations; rising oil prices prompt market participants to revise upward their long-run inflation forecasts, increasing break-even inflation."
+      },
+      {
+        "run_id": 2,
+        "text": "Oil price changes rapidly shift market participants' expectations for near- and medium-term inflation, causing break-even inflation rates to adjust in line with energy-price movements."
+      },
+      {
+        "run_id": 3,
+        "text": "Oil price changes rapidly update market participants' near-term inflation outlook; rising oil causes investors to revise long-term inflation expectations upward, increasing break-even inflation rates."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising oil prices signal inflationary pressure and cause bond-market participants to revise upward their 10-year inflation expectations, widening breakeven inflation rates as energy costs flow through to broader price levels."
+      },
+      {
+        "run_id": 5,
+        "text": "Oil price changes are a primary driver of near-term inflation expectations because energy costs feed quickly into consumer prices; rising oil prices tend to lift break-even inflation rates and vice versa."
+      },
+      {
+        "run_id": 6,
+        "text": "Oil price increases signal inflationary pressures and update investor inflation expectations, causing market-implied break-even inflation rates to rise."
+      },
+      {
+        "run_id": 7,
+        "text": "Oil price movements feed into inflation expectations because energy costs propagate through the supply chain; rising oil prices cause investors to revise upward their long-term inflation forecasts embedded in break-even rates."
+      },
+      {
+        "run_id": 8,
+        "text": "Oil price movements shift market participants' forward inflation expectations since energy is a major driver of CPI; rising oil prices tend to push up 10-year break-even inflation rates."
+      },
+      {
+        "run_id": 9,
+        "text": "Oil prices are a leading signal of inflationary pressure; sustained oil price increases shift market expectations for future CPI inflation upward, directly raising breakeven inflation rates embedded in Treasury markets."
+      },
+      {
+        "run_id": 10,
+        "text": "Rising oil prices signal future inflationary pressure and cause investors to revise upward their long-run inflation expectations, pushing break-even inflation rates higher through the inflation-expectations channel."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Central-bank net purchases add directly to physical gold demand; large-scale official-sector buying reduces available supply in the market and supports higher gold prices."
+      },
+      {
+        "run_id": 2,
+        "text": "Central bank net buying directly adds to physical gold demand from a large, strategic buyer base; net purchases support higher prices while net selling pressures prices downward."
+      },
+      {
+        "run_id": 3,
+        "text": "Central bank net purchases represent official-sector physical demand for gold; net buying adds to total demand and supports higher prices, while net selling pressures prices downward."
+      },
+      {
+        "run_id": 4,
+        "text": "Central-bank net purchases represent large strategic physical demand flows; net buying adds to total demand and supports higher prices, while net selling releases supply and pressures prices downward."
+      },
+      {
+        "run_id": 5,
+        "text": "Central bank net purchases represent large-scale official-sector demand for physical gold; net buying adds to total demand and supports higher prices, while net selling reduces demand and pressures prices downward."
+      },
+      {
+        "run_id": 6,
+        "text": "Net central-bank purchases add to physical gold demand directly, supporting higher prices; net selling increases available supply and pressures prices downward."
+      },
+      {
+        "run_id": 7,
+        "text": "Central-bank net purchases add directly to physical gold demand; large-scale official-sector buying (as seen post-2022) removes supply from circulation and supports higher gold prices."
+      },
+      {
+        "run_id": 8,
+        "text": "Central bank net purchases represent official-sector physical demand; net buying removes gold from available market supply and adds to total demand, directly supporting higher prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Central bank net purchases add directly to physical gold demand; large-scale buying reduces available market supply and supports higher prices, while net selling increases supply and pressures prices downward."
+      },
+      {
+        "run_id": 10,
+        "text": "Central bank net purchases represent large, strategic physical demand flows; net buying reduces available market supply and supports higher prices, while net selling pressures prices downward."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "fed_funds",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The Federal Reserve explicitly responds to realized inflation under its price-stability mandate; sustained above-target CPI inflation triggers Fed tightening (higher Fed Funds rate), while below-target inflation supports easing."
+      },
+      {
+        "run_id": 2,
+        "text": "The Federal Reserve sets the Fed Funds rate in direct response to realized inflation outcomes as part of its price-stability mandate; higher CPI inflation systematically causes the Fed to raise rates."
+      },
+      {
+        "run_id": 3,
+        "text": "The Fed sets the Fed Funds rate in direct response to realized inflation under its price-stability mandate; higher CPI inflation mechanically triggers monetary tightening."
+      },
+      {
+        "run_id": 4,
+        "text": "The Fed sets the policy rate in response to realized inflation as part of its price-stability mandate; high CPI inflation causes the Fed to raise the Fed Funds rate (as in 2022\u20132023), making this a direct policy-reaction channel."
+      },
+      {
+        "run_id": 5,
+        "text": "The Federal Reserve's price-stability mandate means realized CPI inflation is a primary input into FOMC rate decisions; high inflation prompts rate hikes and low inflation permits cuts, creating a strong causal link from realized inflation to the policy rate."
+      },
+      {
+        "run_id": 6,
+        "text": "The Federal Reserve's price-stability mandate means that rising realized inflation is a primary driver of Fed Funds rate increases, while declining inflation supports rate cuts."
+      },
+      {
+        "run_id": 7,
+        "text": "Realized inflation is the primary trigger for Fed rate adjustments under the dual mandate; higher CPI inflation directly causes the FOMC to raise the Fed Funds target rate to restore price stability."
+      },
+      {
+        "run_id": 8,
+        "text": "The Fed's price-stability mandate means rising realized CPI inflation causally prompts FOMC tightening (raising the Fed Funds rate), while falling inflation encourages easing."
+      },
+      {
+        "run_id": 9,
+        "text": "The Federal Reserve sets the Fed Funds rate in direct response to realized inflation as part of its price-stability mandate; high CPI inflation mechanically triggers rate hikes, creating a strong causal link from realized inflation to the policy rate."
+      },
+      {
+        "run_id": 10,
+        "text": "The Fed sets the Fed Funds rate in direct response to realized inflation under its price-stability mandate; persistently high CPI inflation triggers rate hikes, while below-target inflation supports rate cuts."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Realized CPI inflation erodes the purchasing power of fiat currency, triggering inflation-hedge demand for gold as investors seek to preserve real wealth."
+      },
+      {
+        "run_id": 2,
+        "text": "Realized inflation erodes the purchasing power of fiat currency, triggering inflation-hedge demand for gold as a store of real value."
+      },
+      {
+        "run_id": 3,
+        "text": "Realized CPI inflation represents actual purchasing-power erosion, triggering inflation-hedge demand for gold as investors seek to preserve real wealth."
+      },
+      {
+        "run_id": 4,
+        "text": "Realized CPI inflation represents actual purchasing-power erosion of fiat currency, triggering the inflation-hedge demand for gold through the realized-inflation channel distinct from the expectations channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Realized CPI inflation measures actual purchasing-power erosion of fiat currency, activating gold's inflation-hedge role; investors hold gold to preserve real wealth when consumer prices are rising rapidly."
+      },
+      {
+        "run_id": 6,
+        "text": "Realized CPI inflation signals erosion of fiat-currency purchasing power, triggering inflation-hedge demand for gold and supporting higher prices."
+      },
+      {
+        "run_id": 7,
+        "text": "Realized CPI inflation represents actual purchasing-power erosion of fiat currency, activating gold's inflation-hedge role and historically driving investment demand toward gold."
+      },
+      {
+        "run_id": 8,
+        "text": "Realized CPI inflation represents actual purchasing-power erosion of fiat currency, triggering inflation-hedge demand for gold as investors seek to preserve real wealth."
+      },
+      {
+        "run_id": 9,
+        "text": "Realized CPI inflation erodes the purchasing power of fiat currency, triggering demand for gold as an inflation hedge. This is the backward-looking realized-inflation channel distinct from the expectations channel captured by breakeven_10y."
+      },
+      {
+        "run_id": 10,
+        "text": "Realized CPI inflation signals erosion of fiat currency purchasing power, triggering inflation-hedge demand for gold and supporting higher prices through the realized-inflation channel."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "oil_wti",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Energy prices are a major direct component of the CPI and feed through to transportation and production costs across the economy; sustained oil price increases reliably push realized CPI inflation higher."
+      },
+      {
+        "run_id": 2,
+        "text": "Energy prices are a direct component of CPI and feed through to broader consumer prices via transportation and production costs; oil price increases mechanically raise realized inflation."
+      },
+      {
+        "run_id": 3,
+        "text": "Energy prices are a major direct and indirect component of consumer price indices; rising oil prices feed through to gasoline, transportation, and production costs, raising realized CPI inflation."
+      },
+      {
+        "run_id": 4,
+        "text": "Energy prices are a major direct component of CPI (gasoline, heating oil) and an indirect input cost across most sectors; sustained oil price increases feed through into realized consumer-price inflation with a short lag."
+      },
+      {
+        "run_id": 5,
+        "text": "Energy prices are a direct component of CPI and a major input cost throughout the economy; oil price shocks transmit rapidly into headline consumer price inflation through gasoline, transportation, and production costs."
+      },
+      {
+        "run_id": 6,
+        "text": "Energy prices are a direct component of CPI and a major cost input across the economy; rising oil prices feed through to consumer-price inflation within months."
+      },
+      {
+        "run_id": 7,
+        "text": "Energy prices are a direct component of the CPI basket and a major upstream cost input, so sustained oil price changes feed through to realized consumer-price inflation with a lag of a few months."
+      },
+      {
+        "run_id": 8,
+        "text": "Energy prices are a direct component of the CPI basket and also raise transportation and production costs across the economy, so oil price increases causally drive realized consumer-price inflation."
+      },
+      {
+        "run_id": 9,
+        "text": "Energy prices are a major component of the CPI basket and an input cost across virtually all sectors; rising oil prices feed directly and rapidly into realized consumer price inflation through fuel costs and production cost pass-through."
+      },
+      {
+        "run_id": 10,
+        "text": "Energy prices are a major direct component of the CPI basket and a significant pass-through input to the prices of most other goods and services; oil price shocks are one of the primary drivers of short-run CPI movements."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "A rising debt-to-GDP ratio raises the perceived probability of future currency debasement or financial repression, increasing demand for gold as a hedge against sovereign-credit deterioration and fiat-currency weakness."
+      },
+      {
+        "run_id": 2,
+        "text": "Rising debt-to-GDP signals fiscal unsustainability and heightens long-run debasement risk for fiat currency, driving demand for gold as a hedge against sovereign credit deterioration."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising government debt-to-GDP raises concerns about fiscal sustainability, currency debasement risk, and financial repression, driving demand for gold as a hedge against sovereign credit deterioration."
+      },
+      {
+        "run_id": 4,
+        "text": "A rising debt-to-GDP ratio raises long-run fiscal-sustainability concerns and the probability of currency debasement or financial repression, increasing investor demand for gold as a sovereign-credit hedge with no counterparty risk."
+      },
+      {
+        "run_id": 5,
+        "text": "A rising debt-to-GDP ratio signals fiscal sustainability concerns and elevated long-run probability of currency debasement or financial repression, prompting investors to rotate into gold as a sovereign-risk hedge with no counterparty exposure."
+      },
+      {
+        "run_id": 6,
+        "text": "A rising debt-to-GDP ratio raises the perceived probability of currency debasement or fiscal repression, increasing demand for gold as a sovereign-credit hedge with no counterparty risk."
+      },
+      {
+        "run_id": 7,
+        "text": "Rising debt-to-GDP signals deteriorating fiscal sustainability and elevated long-run currency-debasement risk, prompting investors to rotate into gold as a no-counterparty-risk store of value."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising debt-to-GDP signals increased long-run fiscal sustainability risk and currency-debasement probability, driving demand for gold as a hedge against sovereign-credit deterioration and fiat-currency weakness."
+      },
+      {
+        "run_id": 9,
+        "text": "A rising debt-to-GDP ratio increases perceived fiscal-sustainability risk and the probability of currency debasement or financial repression, driving demand for gold as a sovereign-credit hedge and store of value with no counterparty risk."
+      },
+      {
+        "run_id": 10,
+        "text": "A rising debt-to-GDP ratio raises the perceived probability of currency debasement or fiscal repression, increasing demand for gold as a sovereign-credit hedge and store of value with no counterparty risk."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "fed_funds",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Higher U.S. policy rates relative to foreign rates attract capital flows into dollar-denominated assets, strengthening the dollar; Fed tightening cycles are historically associated with dollar appreciation."
+      },
+      {
+        "run_id": 2,
+        "text": "Higher U.S. interest rates relative to foreign rates attract capital inflows into dollar-denominated assets, strengthening the dollar through the interest-rate parity and capital-flow channels."
+      },
+      {
+        "run_id": 3,
+        "text": "Higher U.S. policy rates increase the relative return on dollar-denominated assets, attracting capital inflows and strengthening the dollar index."
+      },
+      {
+        "run_id": 4,
+        "text": "Higher U.S. policy rates increase the yield differential between USD-denominated assets and foreign assets, attracting capital inflows and strengthening the dollar through the interest-rate parity channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Higher U.S. policy rates attract capital inflows seeking yield differentials, which appreciates the dollar; Fed easing reduces the yield advantage of dollar assets and weakens the currency."
+      },
+      {
+        "run_id": 6,
+        "text": "Higher U.S. policy rates relative to foreign rates attract capital inflows into dollar-denominated assets, strengthening the dollar (DXY), while rate cuts weaken it."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher U.S. policy rates attract capital inflows seeking better risk-adjusted returns, increasing demand for dollar-denominated assets and strengthening the USD index."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher U.S. interest rates attract capital inflows seeking higher returns, increasing demand for dollars and appreciating the DXY; rate cuts reduce the dollar's yield advantage and weaken it."
+      },
+      {
+        "run_id": 9,
+        "text": "Higher U.S. policy rates attract capital inflows seeking higher yield on dollar-denominated assets, increasing demand for dollars and strengthening DXY; Fed tightening cycles are well-documented drivers of dollar appreciation."
+      },
+      {
+        "run_id": 10,
+        "text": "Higher U.S. policy rates attract capital flows into dollar-denominated assets, increasing demand for dollars and strengthening the DXY through the interest-rate parity and capital-flow channels."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar makes gold more expensive in foreign-currency terms, reducing international demand, while a weaker dollar has the opposite effect \u2014 a direct arithmetic and demand channel."
+      },
+      {
+        "run_id": 2,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar mechanically makes gold more expensive for foreign buyers, reducing demand and depressing prices, while a weaker dollar boosts demand."
+      },
+      {
+        "run_id": 3,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar makes gold more expensive in other currencies, reducing global demand and depressing the dollar-denominated gold price, while a weaker dollar has the opposite effect."
+      },
+      {
+        "run_id": 4,
+        "text": "Gold is denominated in USD, so a stronger dollar makes gold more expensive for foreign-currency holders, reducing global demand and suppressing prices; a weaker dollar has the opposite effect through a direct arithmetic-and-demand channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Gold is priced in U.S. dollars globally, so a stronger dollar makes gold more expensive for foreign buyers, reducing global demand and pressing the dollar price lower; a weaker dollar has the reverse effect through a direct arithmetic-and-demand channel."
+      },
+      {
+        "run_id": 6,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar makes gold more expensive for foreign buyers, reducing demand, while a weaker dollar boosts foreign purchasing power and gold demand."
+      },
+      {
+        "run_id": 7,
+        "text": "Gold is priced in USD globally, so dollar strength makes gold more expensive for foreign buyers, reducing international demand; dollar weakness has the reverse effect through a direct arithmetic-and-demand channel."
+      },
+      {
+        "run_id": 8,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar makes gold more expensive for foreign-currency holders, reducing global demand and depressing the dollar-denominated price, with the reverse for dollar weakness."
+      },
+      {
+        "run_id": 9,
+        "text": "Gold is denominated in U.S. dollars globally; a stronger dollar makes gold more expensive for foreign-currency holders, reducing global demand and suppressing gold prices, while a weaker dollar does the reverse. This is a direct arithmetic-and-demand channel."
+      },
+      {
+        "run_id": 10,
+        "text": "Gold is priced in U.S. dollars globally; a stronger dollar makes gold more expensive for foreign-currency holders, reducing international demand, while a weaker dollar has the opposite effect."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold as an asset with no counterparty risk and no direct exposure to any single policy regime."
+      },
+      {
+        "run_id": 2,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold as an asset with no counterparty risk or direct exposure to any single policy regime."
+      },
+      {
+        "run_id": 3,
+        "text": "High economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold, which has no counterparty risk and no direct exposure to any single policy regime."
+      },
+      {
+        "run_id": 4,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and increases demand for gold as an asset with no counterparty risk and no direct exposure to any single policy regime, attracting capital when policy direction is unclear."
+      },
+      {
+        "run_id": 5,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold as a no-counterparty-risk asset that is not directly exposed to any single policy regime or regulatory change."
+      },
+      {
+        "run_id": 6,
+        "text": "High economic policy uncertainty raises the risk premium on policy-exposed assets and increases demand for gold as a counterparty-risk-free store of value unaffected by any single policy regime."
+      },
+      {
+        "run_id": 7,
+        "text": "High economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold as a no-counterparty-risk asset unaffected by any single policy regime."
+      },
+      {
+        "run_id": 8,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold as a counterparty-risk-free asset unaffected by any single policy regime, supporting higher gold prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand for gold, which has no counterparty risk and no direct exposure to any single policy regime, as a safe-haven alternative."
+      },
+      {
+        "run_id": 10,
+        "text": "Economic policy uncertainty raises the risk premium on policy-exposed assets and drives demand toward gold, which has no counterparty risk and no direct exposure to any single policy regime."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "ig_spread",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "High policy uncertainty raises the risk premium investors demand on corporate debt as firms face uncertain regulatory, tax, and trade environments; EPU spikes are associated with widening credit spreads."
+      },
+      {
+        "run_id": 2,
+        "text": "Policy uncertainty raises the risk premium on corporate debt by increasing uncertainty around regulatory, fiscal, and monetary environments, widening investment-grade credit spreads."
+      },
+      {
+        "run_id": 3,
+        "text": "Policy uncertainty raises the risk premium demanded on corporate debt, as unclear fiscal and regulatory environments increase uncertainty about corporate cash flows and default risk, widening credit spreads."
+      },
+      {
+        "run_id": 4,
+        "text": "Policy uncertainty raises the risk premium demanded on corporate debt by widening the distribution of future regulatory, tax, and economic outcomes, causing credit spreads to widen during high-uncertainty periods."
+      },
+      {
+        "run_id": 5,
+        "text": "Policy uncertainty raises the risk premium demanded by credit investors for holding corporate debt exposed to regulatory, fiscal, and trade policy risks, tending to widen credit spreads."
+      },
+      {
+        "run_id": 6,
+        "text": "Policy uncertainty makes corporate cash-flow projections more volatile, increasing perceived credit risk and causing investors to demand wider spreads on corporate debt."
+      },
+      {
+        "run_id": 7,
+        "text": "Economic policy uncertainty raises the risk premium on assets exposed to fiscal and regulatory changes, widening corporate credit spreads as investors demand compensation for policy-driven earnings uncertainty."
+      },
+      {
+        "run_id": 8,
+        "text": "Policy uncertainty raises credit-market risk premia as investors become less confident about the regulatory and fiscal environment, contributing to wider investment-grade credit spreads."
+      },
+      {
+        "run_id": 9,
+        "text": "Policy uncertainty raises the risk premium investors require on corporate debt by increasing the range of regulatory, tax, and fiscal outcomes that could affect corporate cash flows and default risk, widening credit spreads."
+      },
+      {
+        "run_id": 10,
+        "text": "Policy uncertainty raises the risk premium investors require for holding policy-sensitive corporate debt and increases the probability of adverse policy outcomes affecting corporate cash flows, widening credit spreads."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "vix",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "High economic policy uncertainty feeds into equity-market volatility as investors discount policy risk into option prices; EPU and VIX tend to co-spike during policy-crisis episodes like the debt-ceiling debates and COVID fiscal uncertainty."
+      },
+      {
+        "run_id": 2,
+        "text": "Policy uncertainty raises the risk premium investors require on equities and other risky assets, elevating implied volatility as reflected in VIX during high-uncertainty policy episodes."
+      },
+      {
+        "run_id": 3,
+        "text": "Economic policy uncertainty raises equity market uncertainty as investors face unclear policy regimes for taxation, regulation, and trade, causing elevated implied volatility measured by VIX."
+      },
+      {
+        "run_id": 4,
+        "text": "Economic policy uncertainty raises the risk premium on equities and increases option-implied volatility as investors price in a wider range of policy outcomes; EPU spikes often coincide with VIX elevations during major policy transitions."
+      },
+      {
+        "run_id": 5,
+        "text": "Policy uncertainty raises investor anxiety about future economic conditions and corporate earnings, contributing to equity-market volatility; EPU and VIX frequently co-spike during major policy transition episodes."
+      },
+      {
+        "run_id": 6,
+        "text": "Policy uncertainty about fiscal, monetary, and regulatory direction raises risk premia in equity markets, contributing to elevated implied volatility as investors hedge against policy-driven outcomes."
+      },
+      {
+        "run_id": 7,
+        "text": "Policy uncertainty raises the risk premium investors require and increases implied volatility in equity options; episodes of acute policy uncertainty (debt ceiling, trade wars) co-move with VIX spikes."
+      },
+      {
+        "run_id": 8,
+        "text": "Policy uncertainty contributes to equity-market volatility; elevated EPU reflects conditions under which investors demand higher option prices to hedge uncertain market outcomes, pushing VIX higher."
+      },
+      {
+        "run_id": 9,
+        "text": "Policy uncertainty raises risk premiums on equities and increases demand for options-market downside protection; elevated EPU is associated with higher implied equity volatility as investors price in a wider range of policy outcomes."
+      },
+      {
+        "run_id": 10,
+        "text": "Economic policy uncertainty raises equity-market volatility as investors become uncertain about the regulatory, fiscal, and monetary environment affecting corporate earnings, causing VIX to rise."
+      }
+    ]
+  },
+  {
+    "node_a": "fed_funds",
+    "node_b": "gold_price",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The Fed Funds rate sets the return on cash and short-term instruments; a higher policy rate raises the opportunity cost of holding non-yielding gold relative to interest-bearing alternatives, reducing gold demand."
+      },
+      {
+        "run_id": 2,
+        "text": "The Fed Funds rate raises the return on cash and short-term instruments relative to gold, directly affecting gold's opportunity cost and thus demand."
+      },
+      {
+        "run_id": 3,
+        "text": "The Fed Funds rate raises the return on cash and money-market instruments relative to gold, affecting gold's opportunity cost and attractiveness as a non-yielding asset."
+      },
+      {
+        "run_id": 4,
+        "text": "The Fed Funds rate sets the return on cash and short-term instruments, directly affecting the opportunity cost of holding non-yielding gold. Higher policy rates reduce gold's relative attractiveness by raising the return on liquid alternatives."
+      },
+      {
+        "run_id": 5,
+        "text": "The Fed Funds rate raises the return on cash and short-term instruments relative to non-yielding gold, directly affecting gold's opportunity cost. Higher policy rates reduce gold's attractiveness as a store of value relative to yielding alternatives."
+      },
+      {
+        "run_id": 6,
+        "text": "The Fed Funds rate raises the return on cash and short-term instruments relative to non-yielding gold, directly affecting gold's opportunity cost and thus demand."
+      },
+      {
+        "run_id": 7,
+        "text": "The Fed Funds rate anchors the return on cash and short-term instruments relative to gold; higher policy rates raise the opportunity cost of holding non-yielding gold, reducing demand."
+      },
+      {
+        "run_id": 8,
+        "text": "The Fed Funds rate raises the return on cash and money-market instruments relative to gold, directly affecting gold's opportunity cost and thus its price."
+      },
+      {
+        "run_id": 9,
+        "text": "The Fed Funds rate raises the return on cash and money-market instruments relative to non-yielding gold, affecting gold's opportunity cost directly. Higher policy rates reduce gold's attractiveness as a store of value."
+      },
+      {
+        "run_id": 10,
+        "text": "The Fed Funds rate raises the return on cash and money-market instruments relative to gold, reducing gold's relative attractiveness through the opportunity-cost channel."
+      }
+    ]
+  },
+  {
+    "node_a": "fed_funds",
+    "node_b": "real_10y",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The Fed Funds rate anchors the short end of the Treasury yield curve and influences longer-dated real yields through the expectations channel, as markets price future short-rate paths into TIPS yields."
+      },
+      {
+        "run_id": 2,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and transmits to longer-dated real yields through the expectations channel and term-premium effects."
+      },
+      {
+        "run_id": 3,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and influences longer-term real yields through the expectations channel and the term structure of interest rates."
+      },
+      {
+        "run_id": 4,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and influences longer-dated real yields through the expectations channel, as monetary policy expectations are incorporated into longer-maturity TIPS pricing."
+      },
+      {
+        "run_id": 5,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and transmits to longer-dated real yields through the expectations channel, influencing where 10-year TIPS yields settle."
+      },
+      {
+        "run_id": 6,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and influences longer-dated real yields through the expectations channel and term-structure transmission."
+      },
+      {
+        "run_id": 7,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and transmits to longer-dated real yields through the expectations channel and term-premium compression."
+      },
+      {
+        "run_id": 8,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and transmits to longer-dated real yields through the expectations channel and monetary-policy signaling."
+      },
+      {
+        "run_id": 9,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and transmits to longer-dated real yields through the expectations channel, as future short rates are a key determinant of long-term real interest rates."
+      },
+      {
+        "run_id": 10,
+        "text": "The Fed Funds rate anchors the short end of the yield curve and influences longer-duration real yields through the expectations channel, as anticipated future policy rates are embedded in 10-year real yields."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "gpr",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as investors seek tangible assets with no counterparty risk during episodes of international conflict, sanctions, and military tensions."
+      },
+      {
+        "run_id": 2,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as investors seek tangible stores of value uncorrelated with politically exposed assets or specific geographies."
+      },
+      {
+        "run_id": 3,
+        "text": "Elevated geopolitical risk triggers flight-to-safety demand for gold as the primary tangible safe-haven asset, as investors and central banks seek assets with no counterparty or jurisdictional risk."
+      },
+      {
+        "run_id": 4,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as the primary tangible safe-haven asset; elevated GPR drives both private investor and central-bank accumulation of gold as a hedge against geopolitical disruption."
+      },
+      {
+        "run_id": 5,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as a tangible asset with no counterparty or jurisdictional risk; major geopolitical shocks (wars, sanctions, military tensions) historically produce sharp gold price rallies."
+      },
+      {
+        "run_id": 6,
+        "text": "Elevated geopolitical risk triggers flight-to-safety demand for gold as the primary tangible safe-haven asset, historically producing positive co-movement between GPR spikes and gold price increases."
+      },
+      {
+        "run_id": 7,
+        "text": "Elevated geopolitical risk triggers flight-to-safety demand for gold as the primary tangible safe-haven asset, as investors and central banks seek assets insulated from conflict or sanctions exposure."
+      },
+      {
+        "run_id": 8,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as investors and central banks seek tangible assets with no counterparty risk when international tensions escalate."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as the primary tangible safe-haven asset, driving prices higher during wars, terrorist attacks, sanctions, and military tensions."
+      },
+      {
+        "run_id": 10,
+        "text": "Geopolitical risk events trigger flight-to-safety demand for gold as the primary tangible safe-haven asset, historically causing gold prices to rise during episodes of war, military tension, and sanctions."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "ig_spread",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Widening credit spreads signal financial-system stress and rising corporate default risk, driving safe-haven demand for gold as investors seek assets without counterparty or credit risk."
+      },
+      {
+        "run_id": 2,
+        "text": "Widening credit spreads signal rising corporate credit stress and systemic financial risk, driving safe-haven demand for gold as investors seek assets with no counterparty risk."
+      },
+      {
+        "run_id": 3,
+        "text": "Widening credit spreads indicate systemic financial or corporate stress, prompting flight-to-safety demand for gold as investors seek assets uncorrelated with the corporate debt system."
+      },
+      {
+        "run_id": 4,
+        "text": "Widening credit spreads signal rising corporate-credit stress and systemic financial risk, driving safe-haven demand for gold as investors seek assets with no counterparty risk outside the corporate-debt system."
+      },
+      {
+        "run_id": 5,
+        "text": "Widening credit spreads signal systemic financial stress and credit-risk concerns that trigger flight-to-safety demand for gold as an asset with no counterparty risk; this channel is distinct from equity-market volatility and captures banking and credit-system stress."
+      },
+      {
+        "run_id": 6,
+        "text": "Widening investment-grade credit spreads signal systemic financial stress, triggering safe-haven demand for gold as investors rotate out of credit-exposed assets."
+      },
+      {
+        "run_id": 7,
+        "text": "Wider credit spreads indicate systemic financial or corporate stress, driving flight-to-safety demand for gold as investors seek assets uncorrelated with the corporate-debt financial system."
+      },
+      {
+        "run_id": 8,
+        "text": "Widening credit spreads signal rising systemic financial stress, triggering safe-haven demand for gold as investors seek assets with no counterparty risk and no exposure to the corporate credit system."
+      },
+      {
+        "run_id": 9,
+        "text": "Widening credit spreads signal rising corporate default risk and systemic financial stress, prompting investors to seek safe-haven assets with no counterparty risk such as gold. This credit-stress channel is distinct from the equity-volatility channel captured by VIX."
+      },
+      {
+        "run_id": 10,
+        "text": "Widening credit spreads indicate rising corporate credit stress and systemic financial risk, driving safe-haven demand for gold as investors seek assets outside the corporate-debt financial system."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "mich_pessim",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "When a large share of consumers expects sustained bad economic times, retail demand for defensive stores of value \u2014 including gold bars, coins, and ETFs \u2014 increases, supporting gold prices, as documented by Barsky et al. (2021)."
+      },
+      {
+        "run_id": 2,
+        "text": "Consumer pessimism about multi-year economic conditions drives retail demand for defensive stores of value including gold bars, coins, and ETF holdings, supporting gold prices."
+      },
+      {
+        "run_id": 3,
+        "text": "Consumer pessimism about multi-year economic conditions increases retail demand for defensive stores of value including physical gold and gold ETFs, supporting higher gold prices."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising consumer pessimism about multi-year economic conditions increases retail demand for defensive stores of value including physical gold (bars, coins) and gold-ETF holdings, representing a behavioral-finance channel distinct from market-priced risk measures."
+      },
+      {
+        "run_id": 5,
+        "text": "Consumer pessimism about multi-year economic conditions drives retail demand for defensive stores of value including gold bars, coins, and gold-ETF holdings; higher pessimism is documented to be associated with higher real gold prices."
+      },
+      {
+        "run_id": 6,
+        "text": "Greater consumer pessimism about multi-year economic conditions drives defensive retail demand for gold (bars, coins, ETFs), documented empirically as a statistically significant driver of real gold prices."
+      },
+      {
+        "run_id": 7,
+        "text": "Greater consumer pessimism about multi-year economic conditions raises retail demand for defensive stores of value including gold bars, coins, and ETFs, consistent with the Chicago Fed documentation of this relationship."
+      },
+      {
+        "run_id": 8,
+        "text": "Consumer pessimism about sustained multi-year bad economic times raises behavioral demand for defensive stores of value including retail gold purchases, coins, and bars, supporting gold prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Consumer pessimism about multi-year economic conditions raises demand for defensive stores of value including retail gold purchases and gold-ETF holdings, with a documented empirical association between bad-times expectations and real gold prices."
+      },
+      {
+        "run_id": 10,
+        "text": "Consumer pessimism about multi-year economic conditions increases retail demand for defensive stores of value including gold bars, coins, and ETF holdings, supporting higher gold prices."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "oecd_cli",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "During global economic expansions (CLI above trend), capital rotates toward growth assets and safe-haven demand for gold falls; during contractions (CLI below trend), safe-haven demand for gold increases."
+      },
+      {
+        "run_id": 2,
+        "text": "Global economic expansion (CLI above trend) rotates investor capital toward growth-sensitive assets and away from safe-haven gold, while contraction signals raise safe-haven gold demand."
+      },
+      {
+        "run_id": 3,
+        "text": "The global business cycle captured by the CLI drives rotations between growth-sensitive assets and defensive safe-haven assets like gold; below-trend global activity increases gold's safe-haven demand."
+      },
+      {
+        "run_id": 4,
+        "text": "The global business cycle indicator captures the economic environment driving safe-haven demand: above-trend global growth rotates capital toward growth assets and away from gold, while below-trend contraction increases defensive gold demand."
+      },
+      {
+        "run_id": 5,
+        "text": "The OECD CLI captures global business-cycle conditions; during global contractions (CLI falling below trend), safe-haven demand for gold rises, while during expansions capital rotates toward growth assets and away from gold."
+      },
+      {
+        "run_id": 6,
+        "text": "Global economic expansion (CLI above trend) rotates capital toward growth assets and away from defensive gold, while contraction signals boost safe-haven gold demand."
+      },
+      {
+        "run_id": 7,
+        "text": "Above-trend global expansion (high CLI) rotates capital toward growth assets and away from defensive gold, while global contraction or deceleration (low or falling CLI) increases safe-haven demand for gold."
+      },
+      {
+        "run_id": 8,
+        "text": "The global business cycle captured by the CLI affects gold through the safe-haven demand channel: below-trend global activity raises recession fears and defensive demand for gold, while above-trend expansion rotates capital toward growth assets."
+      },
+      {
+        "run_id": 9,
+        "text": "The OECD CLI captures global business-cycle momentum; during global expansions capital rotates toward growth assets and away from defensive gold, while deteriorating CLI signals upcoming contraction and drives safe-haven demand for gold."
+      },
+      {
+        "run_id": 10,
+        "text": "Global business-cycle conditions captured by the CLI affect safe-haven demand for gold: above-trend expansion reduces defensive gold demand as capital rotates to growth assets, while contraction increases it."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "oil_wti",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Rising oil prices increase gold mining and transportation costs (cost channel) and also signal inflationary pressure, both of which feed into higher gold prices; shared geopolitical-risk drivers also cause oil and gold to co-move."
+      },
+      {
+        "run_id": 2,
+        "text": "Oil prices influence gold through the production-cost channel (energy is a major mining input) and through the inflation channel (oil price shocks feed into CPI, triggering inflation-hedge demand for gold)."
+      },
+      {
+        "run_id": 3,
+        "text": "Oil prices affect gold through the cost channel (energy is a major input to gold mining) and the inflation-expectations channel (higher oil feeds into CPI and inflation-hedge demand for gold)."
+      },
+      {
+        "run_id": 4,
+        "text": "Oil prices affect gold through two channels: rising energy costs increase gold mining and transportation costs (supply channel), and oil-driven inflation feeds into inflation expectations that trigger gold's inflation-hedge demand (expectations channel)."
+      },
+      {
+        "run_id": 5,
+        "text": "Oil prices influence gold through two channels: the cost channel (energy is a major input into gold mining), and the inflation-signal channel (rising oil prices feed into CPI and inflation expectations, triggering gold's inflation-hedge demand)."
+      },
+      {
+        "run_id": 6,
+        "text": "Oil price increases raise energy-intensive gold mining costs (supporting a price floor) and signal inflationary pressures that boost gold's inflation-hedge demand."
+      },
+      {
+        "run_id": 7,
+        "text": "Oil prices affect gold through the cost channel (energy is a major mining input) and through the inflation-expectations channel (rising energy prices feed CPI and inflation-hedge demand for gold)."
+      },
+      {
+        "run_id": 8,
+        "text": "Oil prices influence gold through two channels: energy is a major input cost in gold mining, so higher oil prices raise production costs; and oil price increases feed through to consumer-price inflation, stimulating inflation-hedge demand for gold."
+      },
+      {
+        "run_id": 9,
+        "text": "Oil prices feed into gold through both the cost channel (energy is a major input in gold mining) and the inflation-signal channel (rising oil prices boost inflation expectations, stimulating gold's inflation-hedge demand)."
+      },
+      {
+        "run_id": 10,
+        "text": "Oil prices affect gold through the cost channel (energy is a major input to gold mining) and through the inflation-signal channel (rising energy prices feed through to CPI and inflation expectations, boosting gold's inflation-hedge demand)."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "real_10y",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Real yields represent the real opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return and gold becomes relatively less attractive, and vice versa. This is one of the most well-documented causal channels in the gold-price literature."
+      },
+      {
+        "run_id": 2,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, gold becomes less attractive relative to TIPS, and vice versa. This is one of the most well-documented causal relationships in the gold literature."
+      },
+      {
+        "run_id": 3,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return that competes directly with gold, reducing gold's attractiveness and price."
+      },
+      {
+        "run_id": 4,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed real return making gold less attractive, and vice versa. This is the most well-documented causal channel in the gold-pricing literature."
+      },
+      {
+        "run_id": 5,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, gold becomes relatively less attractive, and when real yields fall or turn negative, gold becomes relatively more attractive. This is one of the most empirically robust and theoretically grounded relationships in gold pricing."
+      },
+      {
+        "run_id": 6,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, investors can earn a guaranteed real return in TIPS instead of gold, reducing gold demand and price."
+      },
+      {
+        "run_id": 7,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return, reducing gold's relative attractiveness, and this relationship is documented as cointegrated in levels."
+      },
+      {
+        "run_id": 8,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return, making gold less attractive, and vice versa. This is one of the most well-documented causal relationships in gold-price modeling."
+      },
+      {
+        "run_id": 9,
+        "text": "Real yields represent the opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return making gold less attractive, and vice versa. This is the most directly documented causal link in the gold pricing literature."
+      },
+      {
+        "run_id": 10,
+        "text": "Real yields represent the real opportunity cost of holding non-yielding gold; when real yields rise, TIPS offer a guaranteed positive real return, reducing gold's relative attractiveness, and vice versa. This is one of the most documented causal links in the gold literature."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "sp500_ret",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The risk-on/risk-off dynamic causes capital to rotate away from gold toward equities during strong market rallies and back into gold during equity sell-offs, as gold serves as a safe-haven alternative to risky equities."
+      },
+      {
+        "run_id": 2,
+        "text": "Strong equity returns drive capital toward risk assets and away from safe-haven gold (risk-on/risk-off rotation), while equity selloffs trigger safe-haven demand for gold."
+      },
+      {
+        "run_id": 3,
+        "text": "Gold and equities exhibit a risk-on/risk-off relationship: positive equity returns signal risk appetite and reduce safe-haven demand for gold, while equity sell-offs drive capital rotation into gold."
+      },
+      {
+        "run_id": 4,
+        "text": "The risk-on/risk-off dynamic means that strong equity returns attract capital away from defensive gold holdings, while equity sell-offs drive safe-haven rotation into gold, creating a systematic negative relationship."
+      },
+      {
+        "run_id": 5,
+        "text": "The risk-on/risk-off dynamic means strong equity returns draw capital toward growth assets and away from gold, while equity sell-offs prompt safe-haven rotation into gold; these two assets are partially substitute stores of wealth."
+      },
+      {
+        "run_id": 6,
+        "text": "Via risk-on/risk-off dynamics, strong equity returns draw capital away from defensive gold holdings, while equity sell-offs trigger safe-haven rotation into gold."
+      },
+      {
+        "run_id": 7,
+        "text": "The risk-on/risk-off relationship means strong equity returns draw capital away from defensive gold holdings, while equity selloffs trigger safe-haven rotation into gold."
+      },
+      {
+        "run_id": 8,
+        "text": "The risk-on/risk-off dynamic means strong equity returns shift investor demand toward growth assets and away from defensive gold, while equity selloffs trigger capital rotation into gold as a safe haven."
+      },
+      {
+        "run_id": 9,
+        "text": "Gold and equities exhibit a risk-on/risk-off relationship; strong equity returns draw capital toward growth assets and away from defensive gold, while equity selloffs trigger safe-haven rotation into gold."
+      },
+      {
+        "run_id": 10,
+        "text": "The risk-on/risk-off dynamic causes capital to rotate between equities and gold: strong equity returns reduce safe-haven demand for gold, while equity sell-offs drive capital into gold as a defensive store of value."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "unemployment",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Rising unemployment signals economic distress, triggers monetary easing expectations, and raises recession-risk-driven safe-haven demand for gold through the monetary-policy, recession-risk, and risk-aversion channels simultaneously."
+      },
+      {
+        "run_id": 2,
+        "text": "Rising unemployment signals recession risk and triggers monetary easing expectations and safe-haven demand for gold simultaneously through the monetary-policy and risk-aversion channels."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising unemployment signals economic weakness, triggers monetary easing, and raises recession risk, all of which increase safe-haven demand for gold through the monetary-policy and risk-aversion channels simultaneously."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising unemployment signals economic weakness and triggers safe-haven gold demand through multiple simultaneous channels: it raises recession risk, prompts Fed easing expectations, and increases risk aversion among households and investors."
+      },
+      {
+        "run_id": 5,
+        "text": "Rising unemployment signals economic distress and recession risk, which simultaneously triggers safe-haven demand for gold, prompts Fed easing that reduces the opportunity cost of holding gold, and elevates broader risk-aversion sentiment."
+      },
+      {
+        "run_id": 6,
+        "text": "Rising unemployment signals economic weakness, raising recession risk and safe-haven demand for gold, and also prompts Fed easing which lowers real yields and further supports gold."
+      },
+      {
+        "run_id": 7,
+        "text": "Rising unemployment signals economic weakness and recession risk, triggering safe-haven demand for gold while simultaneously signaling forthcoming monetary easing that reduces the opportunity cost of holding gold."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising unemployment signals economic weakness, triggering both monetary-policy easing (which lowers opportunity costs for gold) and increased safe-haven demand as recession risk rises, both supporting higher gold prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising unemployment signals economic weakness and recession risk, triggering safe-haven demand for gold while simultaneously pressuring the Fed toward easier monetary policy (lower real yields), affecting gold through both the recession-risk and monetary-policy channels."
+      },
+      {
+        "run_id": 10,
+        "text": "Rising unemployment signals economic weakness, raises recession risk, and drives safe-haven demand for gold while simultaneously signaling likely monetary easing that reduces real yields and further supports gold prices."
+      }
+    ]
+  },
+  {
+    "node_a": "gold_price",
+    "node_b": "vix",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Elevated VIX signals heightened financial-market stress and risk aversion, triggering safe-haven demand for gold as investors seek assets uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 2,
+        "text": "Rising VIX signals elevated financial-market stress and risk aversion, triggering flight-to-safety demand for gold as investors seek assets uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 3,
+        "text": "Elevated VIX signals financial market stress and heightened risk aversion, driving safe-haven capital flows into gold and supporting higher gold prices."
+      },
+      {
+        "run_id": 4,
+        "text": "Elevated VIX signals heightened financial-market stress and risk aversion, triggering safe-haven capital flows into gold as investors seek assets uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 5,
+        "text": "The VIX captures market-wide fear and uncertainty; elevated VIX drives safe-haven demand for gold as investors seek assets uncorrelated with equity drawdowns, making VIX one of the strongest documented predictors of gold price movements."
+      },
+      {
+        "run_id": 6,
+        "text": "Elevated VIX signals heightened financial-market stress and risk aversion, driving safe-haven demand for gold as investors seek assets uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 7,
+        "text": "Elevated VIX signals acute financial-market stress and investor risk aversion, triggering safe-haven capital rotation into gold as a store of value uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 8,
+        "text": "Elevated VIX signals financial-market stress and investor risk aversion, driving safe-haven capital flows into gold as investors seek assets uncorrelated with equity drawdowns."
+      },
+      {
+        "run_id": 9,
+        "text": "Elevated VIX signals financial-market stress and heightened risk aversion, driving safe-haven capital flows into gold. VIX is empirically documented as one of the strongest statistical predictors of gold price movements."
+      },
+      {
+        "run_id": 10,
+        "text": "Elevated VIX signals heightened financial-market stress and investor risk aversion, triggering safe-haven demand for gold as investors seek assets uncorrelated with equity drawdowns."
+      }
+    ]
+  },
+  {
+    "node_a": "gpr",
+    "node_b": "oil_wti",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Geopolitical conflicts in oil-producing regions and sanctions on major producers directly disrupt oil supply and elevate risk premiums in crude oil markets, causing oil price increases."
+      },
+      {
+        "run_id": 2,
+        "text": "Geopolitical events in oil-producing regions directly disrupt supply or raise supply-disruption risk premiums, causing oil price spikes; conversely, oil price shocks can generate geopolitical tensions."
+      },
+      {
+        "run_id": 3,
+        "text": "Geopolitical risk events \u2014 wars, military tensions, sanctions on oil producers \u2014 directly threaten oil supply and transit routes, causing oil price spikes as markets price in supply disruption risk."
+      },
+      {
+        "run_id": 4,
+        "text": "Geopolitical conflicts in oil-producing regions or involving major oil-transit chokepoints directly disrupt or threaten oil supply, causing oil prices to spike; this is a primary driver of short-run oil-price volatility."
+      },
+      {
+        "run_id": 5,
+        "text": "Geopolitical risk events centered in major oil-producing regions or along key supply routes directly affect oil supply expectations and can cause sharp oil price spikes; GPR and oil prices co-move during conflict episodes."
+      },
+      {
+        "run_id": 6,
+        "text": "Geopolitical risk events \u2014 particularly in major oil-producing regions \u2014 directly disrupt oil supply and create oil-price spikes; geopolitical uncertainty also creates precautionary demand in energy markets."
+      },
+      {
+        "run_id": 7,
+        "text": "Geopolitical events disproportionately affect oil-producing regions and shipping routes; military conflicts and sanctions disruptions to Middle East or Russian supply directly drive oil price spikes."
+      },
+      {
+        "run_id": 8,
+        "text": "Geopolitical tensions \u2014 particularly in oil-producing regions \u2014 disrupt supply expectations and trigger risk premia in oil markets, directly affecting oil prices through the supply-disruption channel."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical risk events frequently involve oil-producing regions or shipping routes, directly threatening oil supply and causing oil price spikes; the Middle East, Russia-Ukraine, and Gulf tensions illustrate this mechanism repeatedly."
+      },
+      {
+        "run_id": 10,
+        "text": "Geopolitical events in oil-producing regions or affecting global shipping routes directly threaten oil supply, causing oil price spikes; military conflicts and sanctions in the Middle East and Russia are the primary examples."
+      }
+    ]
+  },
+  {
+    "node_a": "gpr",
+    "node_b": "vix",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Major geopolitical events (wars, terrorist attacks) generate financial-market uncertainty that elevates equity volatility expectations, causing VIX to spike alongside geopolitical risk indices."
+      },
+      {
+        "run_id": 2,
+        "text": "Major geopolitical risk events (wars, terrorist attacks, military escalations) increase equity-market uncertainty and spike VIX as investors reprice the risk premium on equities."
+      },
+      {
+        "run_id": 3,
+        "text": "Geopolitical risk events trigger financial market uncertainty and risk aversion, causing spikes in equity market volatility reflected in the VIX."
+      },
+      {
+        "run_id": 4,
+        "text": "Major geopolitical risk events (wars, terrorist attacks, military escalations) generate financial-market uncertainty and trigger equity-market stress, causing VIX to spike as investors price in greater near-term equity volatility."
+      },
+      {
+        "run_id": 5,
+        "text": "Geopolitical risk events cause financial market uncertainty and equity-market stress, typically generating simultaneous spikes in both the GPR index and VIX as investors price in conflict and policy disruption risks."
+      },
+      {
+        "run_id": 6,
+        "text": "Major geopolitical risk events create uncertainty that spills into financial markets, causing VIX to spike as investors bid up options protection against equity-market disruption."
+      },
+      {
+        "run_id": 7,
+        "text": "Geopolitical risk events create uncertainty about economic and financial-market outcomes, causing equity-option implied volatility (VIX) to spike as investors hedge against tail risks."
+      },
+      {
+        "run_id": 8,
+        "text": "Geopolitical risk events raise financial-market uncertainty and investor risk aversion, contributing to VIX spikes as equity-market participants price in higher near-term volatility risk."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical events such as wars, terrorist attacks, and military escalations trigger equity-market uncertainty and raise expected volatility, causing VIX to spike as investors purchase downside protection in options markets."
+      },
+      {
+        "run_id": 10,
+        "text": "Major geopolitical risk events trigger equity-market stress and uncertainty, causing VIX to spike as investors purchase protective options in response to conflict, terrorism, or military escalation."
+      }
+    ]
+  },
+  {
+    "node_a": "ig_spread",
+    "node_b": "sp500_ret",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Widening credit spreads reflect deteriorating corporate financial conditions and tighter credit availability, which negatively impact equity valuations and can cause equity market sell-offs."
+      },
+      {
+        "run_id": 2,
+        "text": "Widening credit spreads signal deteriorating corporate financial conditions, which depress equity valuations; conversely, equity selloffs can feed back into credit spread widening through balance-sheet and confidence channels."
+      },
+      {
+        "run_id": 3,
+        "text": "Equity market downturns signal deteriorating corporate health and raise default risk perceptions, causing credit spreads to widen as investors demand greater compensation for holding corporate debt."
+      },
+      {
+        "run_id": 4,
+        "text": "Strong equity returns signal improving corporate health and risk appetite, causing credit spreads to compress; equity sell-offs raise recession fears and default risk, widening IG spreads through the risk-sentiment channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Widening investment-grade spreads signal tighter financial conditions and higher corporate borrowing costs that weigh on corporate earnings expectations and equity returns; the two are linked through the financial conditions channel."
+      },
+      {
+        "run_id": 6,
+        "text": "Widening credit spreads signal deteriorating financial conditions that typically accompany equity market declines, as both reflect common risk-aversion shocks."
+      },
+      {
+        "run_id": 7,
+        "text": "Equity market declines signal deteriorating corporate earnings prospects and raise default risk, causing credit spreads to widen as equity and credit risk share common fundamental drivers of corporate health."
+      },
+      {
+        "run_id": 8,
+        "text": "Credit spread widening indicates deteriorating corporate financial conditions, which typically coincides with and reinforces equity market declines as the same risk-off dynamic affects both markets."
+      },
+      {
+        "run_id": 9,
+        "text": "Equity market selloffs signal deteriorating corporate earnings prospects and raise default risk perceptions, causing credit spreads to widen; strong equity returns signal improving corporate health, compressing spreads."
+      },
+      {
+        "run_id": 10,
+        "text": "Credit spread widening signals deteriorating corporate financial conditions and is associated with equity market weakness; both measures respond to common shocks to the economic outlook and risk appetite."
+      }
+    ]
+  },
+  {
+    "node_a": "ig_spread",
+    "node_b": "unemployment",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Higher unemployment signals economic weakness and rising corporate default risk, which widens credit spreads as investors demand greater compensation for holding corporate debt during recessionary labor-market conditions."
+      },
+      {
+        "run_id": 2,
+        "text": "Rising unemployment signals deteriorating economic conditions and increases the probability of corporate default, mechanically widening credit spreads as the macroeconomic risk environment deteriorates."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising unemployment signals deteriorating economic conditions and higher default risk, causing credit spreads to widen as investors price in greater corporate distress and reduced debt-service capacity."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising unemployment signals economic weakness, increasing the probability of corporate revenue shortfalls and defaults, which widens credit spreads as investors demand higher compensation for holding corporate debt."
+      },
+      {
+        "run_id": 5,
+        "text": "Rising unemployment raises corporate default risk as consumer demand weakens and firms face revenue pressure, causing credit investors to demand wider spreads to compensate for higher default probabilities."
+      },
+      {
+        "run_id": 6,
+        "text": "Rising unemployment raises default risk for consumer and corporate borrowers (reduced revenues, weaker consumer demand), widening credit spreads as lenders demand greater risk compensation."
+      },
+      {
+        "run_id": 7,
+        "text": "Rising unemployment signals deteriorating economic conditions that raise corporate default probabilities, causing credit spreads to widen as investors price in higher recession-driven credit losses."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising unemployment signals economic deterioration and increases corporate default risk expectations, causally widening credit spreads as investors demand greater compensation for holding corporate debt."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising unemployment signals deteriorating economic conditions and increases corporate default risk by reducing consumer spending and corporate revenues, causing credit spreads to widen as investors demand greater compensation."
+      },
+      {
+        "run_id": 10,
+        "text": "Rising unemployment signals economic deterioration that increases corporate default risk, causing credit spreads to widen; conversely, a healthy labor market supports corporate earnings and tight spreads."
+      }
+    ]
+  },
+  {
+    "node_a": "jewelry_demand",
+    "node_b": "oecd_cli",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Global consumer demand for gold jewelry in emerging markets (India, China) responds to economic prosperity; stronger global economic conditions (higher CLI) support household incomes and discretionary jewelry purchases."
+      },
+      {
+        "run_id": 2,
+        "text": "Global economic expansion supports emerging-market consumer incomes \u2014 particularly in India and China \u2014 increasing discretionary spending on gold jewelry; contraction reduces this demand."
+      },
+      {
+        "run_id": 3,
+        "text": "Global economic expansion raises emerging-market consumer incomes and purchasing power, boosting jewelry demand particularly in India and China where it is culturally significant."
+      },
+      {
+        "run_id": 4,
+        "text": "Global economic expansion raises consumer incomes in key jewelry demand markets (India, China, Middle East), increasing discretionary spending on gold jewelry; contraction reduces disposable income and jewelry purchases."
+      },
+      {
+        "run_id": 5,
+        "text": "Global economic expansion raises household incomes in key jewelry markets (India, China, Middle East), boosting discretionary spending on gold jewelry; a falling CLI signals income compression that reduces jewelry consumption."
+      },
+      {
+        "run_id": 6,
+        "text": "Global consumer jewelry demand rises with economic prosperity (rising incomes in India, China, and other key markets); the OECD CLI's measure of global above-trend growth thus supports jewelry consumption."
+      },
+      {
+        "run_id": 7,
+        "text": "Global economic expansion raises emerging-market household incomes (particularly in India and China), supporting higher jewelry consumption; contraction reduces discretionary income and suppresses jewelry demand."
+      },
+      {
+        "run_id": 8,
+        "text": "Global economic expansion supports rising household incomes particularly in key jewelry-demand markets like India and China, driving higher consumer spending on gold jewelry."
+      },
+      {
+        "run_id": 9,
+        "text": "Global economic expansion raises household incomes in major jewelry-consuming economies (China, India, Middle East), supporting higher jewelry demand; global contractions reduce disposable incomes and depress jewelry purchases."
+      },
+      {
+        "run_id": 10,
+        "text": "Global economic expansion raises disposable incomes in major jewelry-consuming countries (India, China), supporting consumer demand for gold jewelry; contraction reduces discretionary spending and jewelry purchases."
+      }
+    ]
+  },
+  {
+    "node_a": "mich_pessim",
+    "node_b": "unemployment",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "High unemployment directly affects consumer economic pessimism \u2014 households experiencing or fearing job losses are more likely to expect sustained bad economic times, directly feeding the Michigan pessimism measure."
+      },
+      {
+        "run_id": 2,
+        "text": "Labor market conditions directly shape consumer economic expectations; rising unemployment causes households to view future economic prospects as worse, increasing the share expecting bad times."
+      },
+      {
+        "run_id": 3,
+        "text": "Higher unemployment directly raises consumer anxiety about economic conditions, mechanically increasing the share of households expecting sustained bad economic times."
+      },
+      {
+        "run_id": 4,
+        "text": "Rising unemployment is one of the most salient signals of economic distress for households; higher unemployment rates directly raise the share of survey respondents who expect bad economic times over the next five years."
+      },
+      {
+        "run_id": 5,
+        "text": "High or rising unemployment directly shapes household expectations about future economic conditions; when unemployment rises, consumers rationally update toward more pessimistic multi-year economic outlooks."
+      },
+      {
+        "run_id": 6,
+        "text": "Rising unemployment directly increases consumer pessimism about future economic conditions, as households facing job-loss risk or observing layoffs form more negative multi-year economic expectations."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher unemployment directly increases the share of households experiencing or anticipating economic hardship, raising the proportion expecting 'mostly bad times' in the Michigan survey."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising unemployment directly increases consumer pessimism about future multi-year economic conditions as households observe job losses and rising economic insecurity in their communities."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising unemployment directly increases the share of consumers experiencing or fearing job loss, mechanically raising the proportion who expect bad economic times over the next five years as captured by the Michigan pessimism measure."
+      },
+      {
+        "run_id": 10,
+        "text": "High unemployment directly increases the share of households experiencing or fearing economic hardship, mechanically raising the proportion expecting 'mostly bad times' in the Michigan survey."
+      }
+    ]
+  },
+  {
+    "node_a": "oecd_cli",
+    "node_b": "oil_wti",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Global economic activity is the primary driver of crude oil demand; an improving CLI signals stronger industrial and transportation activity, increasing oil demand and supporting prices."
+      },
+      {
+        "run_id": 2,
+        "text": "Global economic activity is the primary driver of oil demand; a rising CLI indicating above-trend global growth increases energy consumption and supports oil prices."
+      },
+      {
+        "run_id": 3,
+        "text": "Global economic activity is the primary driver of oil demand; a strengthening CLI signals rising industrial production and energy consumption, supporting higher oil prices."
+      },
+      {
+        "run_id": 4,
+        "text": "Global economic activity is a primary determinant of energy demand; above-trend global growth (high CLI) increases industrial and transportation oil consumption, supporting oil prices, while contraction reduces demand and pressures prices lower."
+      },
+      {
+        "run_id": 5,
+        "text": "Global economic activity is the primary driver of oil demand; a rising CLI signals accelerating global growth and stronger energy demand, supporting oil prices, while a falling CLI signals demand weakness."
+      },
+      {
+        "run_id": 6,
+        "text": "Global economic activity is the primary driver of crude oil demand; above-trend global expansion (CLI > 100) increases industrial energy consumption and oil prices, while contraction reduces them."
+      },
+      {
+        "run_id": 7,
+        "text": "Global economic expansion (high CLI) drives industrial and energy demand higher, supporting oil prices, while contraction reduces energy demand and pressures oil prices downward."
+      },
+      {
+        "run_id": 8,
+        "text": "Global economic activity is the primary driver of oil demand; a rising CLI signals stronger industrial output and transportation activity, which increases oil consumption and supports oil prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Global economic activity is a primary driver of oil demand; a rising CLI signals expanding global industrial output and consumption, supporting higher oil prices, while a contracting CLI signals reduced global energy demand."
+      },
+      {
+        "run_id": 10,
+        "text": "Global economic activity is the primary driver of commodity demand; above-trend global expansion (high CLI) raises demand for crude oil, supporting oil prices, while below-trend contraction reduces demand and pressures prices."
+      }
+    ]
+  },
+  {
+    "node_a": "oecd_cli",
+    "node_b": "sp500_ret",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The OECD CLI is a leading indicator of global economic activity; improving CLI signals better corporate earnings prospects and reduced recession risk, supporting equity returns, while deteriorating CLI weighs on equities."
+      },
+      {
+        "run_id": 2,
+        "text": "The OECD CLI is designed to lead economic turning points; improving global economic prospects support corporate earnings expectations, positively influencing equity market returns."
+      },
+      {
+        "run_id": 3,
+        "text": "The global CLI is a leading indicator of economic activity; improving global economic conditions support corporate earnings expectations and equity returns, while deteriorating CLI signals contraction and weighs on equities."
+      },
+      {
+        "run_id": 4,
+        "text": "The OECD CLI leads global business-cycle turning points, and equity markets are forward-looking; improvements in the CLI signal stronger future earnings and economic conditions, supporting positive equity returns."
+      },
+      {
+        "run_id": 5,
+        "text": "The CLI is a leading indicator of global economic activity, and improving global growth prospects lift corporate earnings expectations and equity returns, while deteriorating CLI signals recession risk and pressures equities."
+      },
+      {
+        "run_id": 6,
+        "text": "The OECD CLI anticipates global economic turning points; improving global growth expectations (rising CLI) support corporate earnings and equity returns, while deteriorating CLI signals weigh on equities."
+      },
+      {
+        "run_id": 7,
+        "text": "The global leading indicator anticipates changes in corporate earnings growth and business activity that drive equity valuations; above-trend CLI readings support positive equity returns while deterioration signals earnings headwinds."
+      },
+      {
+        "run_id": 8,
+        "text": "Equity markets are forward-looking and respond to leading indicators of global economic activity; a rising CLI signals improving global conditions that support corporate earnings expectations and equity returns."
+      },
+      {
+        "run_id": 9,
+        "text": "The OECD CLI is designed to lead business-cycle turning points; improving global economic conditions captured by a rising CLI support corporate earnings and equity returns, while deteriorating CLI signals contraction risk that pressures equities."
+      },
+      {
+        "run_id": 10,
+        "text": "Improving global economic conditions captured by the CLI are associated with stronger corporate earnings and equity market returns; the CLI leads turning points in activity that equity markets also anticipate."
+      }
+    ]
+  },
+  {
+    "node_a": "oecd_cli",
+    "node_b": "unemployment",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "The U.S. unemployment rate is a coincident indicator of economic conditions that co-moves with global leading indicators; deteriorating U.S. labor markets are both a symptom of and a contributor to global economic downturns captured by the CLI."
+      },
+      {
+        "run_id": 2,
+        "text": "The CLI is designed to lead real-economy turning points; deteriorating global conditions captured by a falling CLI precede rising domestic unemployment, while expansion corresponds to tightening labor markets."
+      },
+      {
+        "run_id": 3,
+        "text": "U.S. labor market conditions are a key component of economic cycle assessment; rising unemployment is associated with below-trend global activity captured by the CLI."
+      },
+      {
+        "run_id": 4,
+        "text": "Labor-market conditions are a coincident indicator of economic activity that informs the CLI's underlying component data; rising unemployment signals below-trend economic activity consistent with a falling CLI."
+      },
+      {
+        "run_id": 5,
+        "text": "The U.S. unemployment rate is a coincident indicator of U.S. economic conditions, and U.S. economic health is a major driver of global business-cycle conditions captured by the OECD CLI; rising unemployment precedes or accompanies CLI deterioration."
+      },
+      {
+        "run_id": 6,
+        "text": "The CLI leads turning points in economic activity; declining global economic momentum typically precedes rising unemployment as labor demand weakens."
+      },
+      {
+        "run_id": 7,
+        "text": "The CLI leads turning points in economic activity; deteriorating CLI readings precede rising unemployment as economic contraction reduces labor demand, while improving readings lead employment recoveries."
+      },
+      {
+        "run_id": 8,
+        "text": "The OECD CLI leads turning points in global economic activity; below-trend global growth (CLI falling below 100) leads to labor-market deterioration and rising unemployment with a lag."
+      },
+      {
+        "run_id": 9,
+        "text": "The CLI leads real economic activity by 6\u20139 months; a deteriorating CLI predicts rising unemployment as global demand weakens, while improving CLI predicts labor market tightening."
+      },
+      {
+        "run_id": 10,
+        "text": "The CLI is designed to lead turning points in GDP activity, and unemployment is a coincident labor-market indicator; global economic expansions (high CLI) are associated with falling unemployment, while contractions raise it."
+      }
+    ]
+  },
+  {
+    "node_a": "sp500_ret",
+    "node_b": "vix",
+    "count": 10,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "VIX and equity returns are mechanically and behaviorally linked: large negative S&P 500 returns drive VIX spikes (the leverage effect), and elevated VIX itself reflects and amplifies equity-market selling pressure."
+      },
+      {
+        "run_id": 2,
+        "text": "VIX is derived from S&P 500 option prices and spikes during equity market selloffs; contemporaneously, high VIX periods correspond to negative equity returns and vice versa."
+      },
+      {
+        "run_id": 3,
+        "text": "Large negative equity returns mechanically increase implied volatility and fear, driving VIX higher; the leverage effect and investor panic during drawdowns directly drive the VIX level."
+      },
+      {
+        "run_id": 4,
+        "text": "VIX is derived from S&P 500 option prices and mechanically inversely related to equity returns; large negative equity returns spike VIX, and elevated VIX reflects anticipation of further equity-market turbulence."
+      },
+      {
+        "run_id": 5,
+        "text": "VIX is derived from S&P 500 option prices and spikes contemporaneously with large negative equity returns; the two variables are mechanically and economically intertwined through the equity market."
+      },
+      {
+        "run_id": 6,
+        "text": "VIX is derived from S&P 500 option prices and spikes during equity market sell-offs, creating a mechanical negative contemporaneous relationship with S&P 500 returns."
+      },
+      {
+        "run_id": 7,
+        "text": "VIX is derived from S&P 500 option prices and mechanically reflects realized equity-market volatility; large negative equity returns cause VIX to spike, and elevated VIX discourages risk-taking and suppresses equity returns."
+      },
+      {
+        "run_id": 8,
+        "text": "VIX spikes are mechanically and causally linked to equity selloffs; rising implied volatility reflects and reinforces negative equity returns through options pricing and investor de-risking behavior."
+      },
+      {
+        "run_id": 9,
+        "text": "VIX is derived from S&P 500 option prices and spikes when equity markets sell off sharply; large negative S&P 500 returns mechanically increase implied volatility and investor demand for downside protection, driving VIX higher."
+      },
+      {
+        "run_id": 10,
+        "text": "VIX is derived from S&P 500 option prices and spikes during sharp equity sell-offs; negative S&P 500 returns mechanically cause VIX to rise through the leverage effect and increased demand for protective puts."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "real_10y",
+    "count": 9,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Realized inflation affects real yields through both the Fisher relationship (nominal yields adjust to inflation) and through the Fed's policy response; high inflation that is not fully reflected in nominal yields compresses real yields."
+      },
+      {
+        "run_id": 2,
+        "text": "Realized inflation influences market expectations about future Fed policy and the real return environment, shifting real yields as investors reprice TIPS against nominal bonds."
+      },
+      {
+        "run_id": 3,
+        "text": "Realized inflation affects the real yield through its impact on monetary policy expectations and on the nominal-real decomposition of Treasury yields; higher inflation can reduce ex-post real yields and shift TIPS pricing."
+      },
+      {
+        "run_id": 4,
+        "text": "Realized inflation affects the pricing of TIPS and influences the spread between nominal and real yields; changes in realized inflation feed into TIPS breakeven and real yield dynamics through the Fisher equation decomposition."
+      },
+      {
+        "run_id": 5,
+        "text": "Realized inflation affects real yields by influencing both the inflation expectations embedded in nominal yields and the Fed's policy response; sustained high inflation that prompts policy tightening raises real yields."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher realized inflation erodes the real value of nominal bonds, prompting portfolio reallocation toward TIPS and affecting real yield levels through supply-demand dynamics in the TIPS market."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher realized inflation can compress or shift real yields as it feeds into nominal yield adjustments and TIPS breakeven pricing; persistent inflation surprises alter the real yield level."
+      },
+      {
+        "run_id": 9,
+        "text": "Realized inflation feeds into investor inflation expectations and monetary policy responses; the Fed tightens in response to high CPI, raising both nominal and real yields, with the real yield effect depending on whether nominal rates rise faster than inflation expectations."
+      },
+      {
+        "run_id": 10,
+        "text": "Realized inflation affects the ex-ante real yield through the Fisher relationship and through the Fed's policy response; high inflation accompanied by rate hikes pushes up real yields as nominal rates rise faster than inflation expectations."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "real_10y",
+    "count": 9,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Higher debt-to-GDP ratios can raise the fiscal risk premium embedded in Treasury yields and contribute to upward pressure on long-term real yields as investors demand greater compensation for holding government debt."
+      },
+      {
+        "run_id": 2,
+        "text": "Elevated fiscal deficits and rising debt-to-GDP can push up the term premium on long-dated Treasuries, influencing real yields through increased supply of government debt and sovereign risk concerns."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising fiscal debt burdens can push up the term premium and real yields as investors demand higher compensation for sovereign credit and supply risk on Treasury issuance."
+      },
+      {
+        "run_id": 4,
+        "text": "Higher government debt increases Treasury supply and raises fiscal-risk premiums, which can push up nominal and real yields as investors demand compensation for holding debt of a more fiscally stressed sovereign."
+      },
+      {
+        "run_id": 5,
+        "text": "Rising sovereign debt can put upward pressure on term premiums and real yields as bond markets demand greater compensation for fiscal risk; alternatively, high debt burdens can suppress real yields if financial repression is anticipated."
+      },
+      {
+        "run_id": 6,
+        "text": "Higher sovereign debt levels raise concerns about fiscal sustainability and can push real term premia higher as investors demand additional compensation for holding long-duration U.S. government bonds."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher government debt burdens can raise term premia on long-dated Treasuries as investors demand greater compensation for fiscal risk, pushing up nominal and real yields on 10-year securities."
+      },
+      {
+        "run_id": 9,
+        "text": "Higher debt-to-GDP ratios increase Treasury supply, putting upward pressure on real yields as the government must offer higher returns to attract buyers; this is the standard crowding-out mechanism in bond markets."
+      },
+      {
+        "run_id": 10,
+        "text": "Elevated fiscal stress raises the term premium and sovereign risk premium embedded in Treasury bonds, pushing up nominal and real long-term yields through increased supply of government debt and fiscal-sustainability concerns."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "real_10y",
+    "count": 9,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Higher U.S. real yields attract global capital seeking real returns, increasing demand for dollar-denominated assets and strengthening the dollar."
+      },
+      {
+        "run_id": 3,
+        "text": "Higher U.S. real yields make dollar-denominated safe assets more attractive relative to foreign alternatives, drawing capital into the dollar and strengthening DXY."
+      },
+      {
+        "run_id": 4,
+        "text": "Higher real U.S. Treasury yields attract foreign capital seeking superior real returns in dollar assets, increasing demand for USD and strengthening the exchange rate through the capital-flow channel."
+      },
+      {
+        "run_id": 5,
+        "text": "Higher real U.S. Treasury yields attract foreign capital into dollar-denominated safe assets, increasing demand for dollars and strengthening the DXY; lower real yields reduce the dollar's safe-asset appeal."
+      },
+      {
+        "run_id": 6,
+        "text": "Higher U.S. real yields attract foreign capital seeking positive real returns in dollar assets, increasing demand for dollars and strengthening DXY."
+      },
+      {
+        "run_id": 7,
+        "text": "Higher U.S. real yields increase the real return advantage of dollar assets relative to foreign alternatives, attracting capital inflows that strengthen the dollar."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher U.S. real yields make dollar-denominated assets more attractive to global investors, increasing capital inflows and supporting dollar strength."
+      },
+      {
+        "run_id": 9,
+        "text": "Higher U.S. real yields make dollar-denominated safe assets more attractive to global investors on a real return basis, attracting capital inflows that strengthen the dollar."
+      },
+      {
+        "run_id": 10,
+        "text": "Higher U.S. real yields increase the real return on dollar assets relative to foreign assets, attracting international capital flows and strengthening the dollar through the real interest-rate differential channel."
+      }
+    ]
+  },
+  {
+    "node_a": "oil_wti",
+    "node_b": "silver",
+    "count": 9,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Silver has substantial industrial demand (solar, electronics, EVs) that responds to global economic activity, similar to industrial commodities like oil; shared macro-growth drivers create a causal linkage between silver and oil prices."
+      },
+      {
+        "run_id": 3,
+        "text": "Both silver and oil are industrial commodities with prices sensitive to global economic activity and industrial demand; common macro drivers such as global manufacturing cycles create co-movement between them."
+      },
+      {
+        "run_id": 4,
+        "text": "Silver has substantial industrial demand (solar panels, electronics, EVs), and global industrial activity that drives silver demand also drives energy consumption; both commodities are also sensitive to the same dollar-valuation channel through DXY."
+      },
+      {
+        "run_id": 5,
+        "text": "Silver has substantial industrial demand (solar panels, electronics) that depends on global economic activity, and both silver and oil are commodities whose prices respond to global growth and industrial output cycles."
+      },
+      {
+        "run_id": 6,
+        "text": "Both silver and oil are industrial commodities whose prices respond to global manufacturing activity and economic cycles; shared exposure to industrial demand creates co-movement, and energy is a cost input in silver mining and processing."
+      },
+      {
+        "run_id": 7,
+        "text": "Silver has significant industrial demand (solar, electronics, EVs) that is sensitive to global economic activity, and oil price movements affect both silver mining costs and industrial production conditions that drive silver demand."
+      },
+      {
+        "run_id": 8,
+        "text": "Both silver and oil have significant industrial demand components and respond to global economic activity; strong industrial output drives simultaneous demand for both commodities through the industrial-activity channel."
+      },
+      {
+        "run_id": 9,
+        "text": "Both silver and oil are industrial commodities sensitive to global economic activity; expanding industrial production drives demand for both simultaneously, creating correlated movements driven by the global business cycle and shared macro drivers."
+      },
+      {
+        "run_id": 10,
+        "text": "Silver and oil share common macro-financial drivers including inflation expectations and global industrial demand; they tend to co-move in response to shared inflationary shocks and global demand cycle fluctuations."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "gpr",
+    "count": 8,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Major geopolitical events that disrupt trade, trigger sanctions, or require large fiscal responses simultaneously elevate economic policy uncertainty, as governments must respond with uncertain and potentially disruptive policy actions."
+      },
+      {
+        "run_id": 2,
+        "text": "Major geopolitical events create policy uncertainty about government responses (sanctions, defense spending, regulatory changes), causing EPU to rise contemporaneously with geopolitical risk spikes."
+      },
+      {
+        "run_id": 4,
+        "text": "Major geopolitical events (wars, sanctions regimes, trade conflicts) directly generate economic policy uncertainty as governments respond with new fiscal, trade, and regulatory measures, causing both indices to co-move during acute geopolitical episodes."
+      },
+      {
+        "run_id": 5,
+        "text": "Geopolitical shocks (wars, sanctions, military tensions) create policy uncertainty as governments respond with fiscal, regulatory, and trade-policy measures; GPR and EPU frequently co-spike during episodes that are simultaneously geopolitical and policy-disruptive."
+      },
+      {
+        "run_id": 6,
+        "text": "Geopolitical crises frequently trigger domestic economic policy responses (sanctions, trade restrictions, fiscal measures), causing EPU to rise alongside GPR during major international-conflict episodes."
+      },
+      {
+        "run_id": 8,
+        "text": "Major geopolitical events create domestic policy uncertainty \u2014 triggering debates about sanctions, defense spending, trade policy, and fiscal response \u2014 causing EPU to rise alongside GPR during international crises."
+      },
+      {
+        "run_id": 9,
+        "text": "Major geopolitical events often simultaneously generate domestic economic policy uncertainty as governments respond with sanctions, fiscal measures, and regulatory changes; the two indices frequently spike together during events like the 2022 Russia-Ukraine war."
+      },
+      {
+        "run_id": 10,
+        "text": "Major geopolitical events generate policy uncertainty as governments respond with sanctions, military spending, trade restrictions, and emergency fiscal measures, causing both indices to spike together during crisis episodes."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "vix",
+    "count": 8,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "During periods of elevated market stress (high VIX), institutional investors rotate into gold ETFs as safe-haven vehicles, creating a causal link from VIX to ETF inflows; the reverse causality is more tenuous but large ETF flows can signal sentiment shifts."
+      },
+      {
+        "run_id": 2,
+        "text": "Elevated equity-market volatility and financial stress drive institutional and retail investors into gold ETFs as a safe-haven hedge, generating net inflows during high-VIX periods."
+      },
+      {
+        "run_id": 3,
+        "text": "Spikes in financial market stress (VIX) trigger institutional safe-haven flows into gold ETFs; elevated VIX is a direct driver of positive gold ETF inflows as investors seek defensive positioning."
+      },
+      {
+        "run_id": 5,
+        "text": "ETF inflows are driven by institutional risk-aversion; rising VIX signals financial stress that prompts institutional investors to rotate into gold ETFs as a safe-haven vehicle, linking VIX and ETF flows through the safe-haven demand mechanism."
+      },
+      {
+        "run_id": 6,
+        "text": "Gold ETF inflows tend to surge during high-VIX risk-off episodes as institutional investors seek safe-haven exposure; VIX is thus a driver of ETF flow decisions, while large ETF flows can signal prevailing market stress."
+      },
+      {
+        "run_id": 7,
+        "text": "Elevated market volatility and stress drive institutional and retail investors into gold ETFs as safe-haven vehicles; VIX spikes are consistently associated with gold ETF inflow surges."
+      },
+      {
+        "run_id": 9,
+        "text": "Financial market stress episodes that spike VIX trigger institutional investor reallocation into gold ETFs as safe-haven vehicles, producing positive ETF inflows; calming of volatility can trigger the reverse rotation."
+      },
+      {
+        "run_id": 10,
+        "text": "Financial market stress reflected in elevated VIX drives institutional investors to increase gold ETF holdings as a safe-haven hedge, causing net inflows; calm markets with low VIX tend to see reduced ETF demand."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "mich_pessim",
+    "count": 7,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Economic policy uncertainty is one driver of consumer pessimism; when households are uncertain about the direction of government fiscal, monetary, and regulatory policy, they are more likely to expect bad economic times."
+      },
+      {
+        "run_id": 4,
+        "text": "Consumer pessimism and economic policy uncertainty are jointly driven by the perceived economic and policy environment; high policy uncertainty feeds consumer anxiety about the economic outlook, raising pessimism, and elevated pessimism reflects the underlying uncertainty that the EPU index captures."
+      },
+      {
+        "run_id": 5,
+        "text": "Economic policy uncertainty contributes directly to consumer pessimism about future economic conditions; EPU and mich_pessim are both driven by the same underlying economic anxiety, with policy uncertainty feeding into household-level sentiment."
+      },
+      {
+        "run_id": 6,
+        "text": "Consumer pessimism about multi-year economic prospects partly reflects and partly reinforces economic policy uncertainty; households perceiving uncertain or adverse policy directions report greater economic pessimism in surveys."
+      },
+      {
+        "run_id": 8,
+        "text": "Economic policy uncertainty contributes to consumer pessimism about future economic conditions; when households observe policy confusion or fiscal instability, their expectations about the next five years worsen."
+      },
+      {
+        "run_id": 9,
+        "text": "Consumer economic pessimism and policy uncertainty tend to co-move because policy uncertainty contributes to consumer anxiety about economic prospects; both capture overlapping dimensions of economic confidence deterioration."
+      },
+      {
+        "run_id": 10,
+        "text": "High economic policy uncertainty is likely to cause households to be more pessimistic about the five-year economic outlook, as unclear policy direction signals potential instability and adverse economic outcomes."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "sp500_ret",
+    "count": 7,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Policy uncertainty raises the equity risk premium and can suppress investment and consumption, generating negative equity-market returns or at minimum elevated return volatility during high-EPU episodes."
+      },
+      {
+        "run_id": 2,
+        "text": "Elevated economic policy uncertainty depresses equity valuations by raising discount rates and reducing confidence in corporate earnings forecasts, generating negative equity returns."
+      },
+      {
+        "run_id": 3,
+        "text": "High economic policy uncertainty raises the equity risk premium and depresses corporate investment and earnings expectations, weighing on equity returns."
+      },
+      {
+        "run_id": 4,
+        "text": "Policy uncertainty makes equity valuations harder to estimate by widening the distribution of future earnings and discount rates, suppressing equity returns as investors demand higher risk premiums during high-EPU periods."
+      },
+      {
+        "run_id": 5,
+        "text": "Higher economic policy uncertainty depresses equity valuations by raising the discount rate applied to future earnings and increasing the probability of adverse regulatory or fiscal outcomes, weighing on equity returns."
+      },
+      {
+        "run_id": 8,
+        "text": "High economic policy uncertainty depresses equity valuations by raising discount rates and compressing earnings expectations, weighing on S&P 500 returns."
+      },
+      {
+        "run_id": 9,
+        "text": "Economic policy uncertainty depresses equity valuations by raising discount rates and suppressing investment expectations; high EPU episodes are associated with negative equity returns as policy-exposed cash flows are discounted more heavily."
+      }
+    ]
+  },
+  {
+    "node_a": "ig_spread",
+    "node_b": "oecd_cli",
+    "count": 7,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Better global economic conditions (higher CLI) reduce corporate default probabilities and improve debt-servicing capacity, tightening IG credit spreads; deteriorating CLI widens spreads as recession risk rises."
+      },
+      {
+        "run_id": 2,
+        "text": "Deteriorating global economic conditions (falling CLI) increase corporate default risk and tighten financial conditions, causing credit spreads to widen; improving conditions compress spreads."
+      },
+      {
+        "run_id": 3,
+        "text": "A weakening global leading indicator raises recession probabilities and default risk perceptions, causing credit spreads to widen as markets price in higher corporate distress."
+      },
+      {
+        "run_id": 4,
+        "text": "Better global economic conditions reduce the probability of corporate defaults, compressing credit spreads as investor risk appetite improves; deteriorating CLI leads to spread widening as recession risk rises."
+      },
+      {
+        "run_id": 5,
+        "text": "Deteriorating global economic conditions captured by a falling CLI raise corporate default risk, widening investment-grade credit spreads; improving conditions compress spreads as default probabilities fall."
+      },
+      {
+        "run_id": 8,
+        "text": "Improving global economic conditions reduce corporate default risk, compressing credit spreads; deteriorating CLI signals rising recession probability and wider credit spreads."
+      },
+      {
+        "run_id": 9,
+        "text": "Improving global economic conditions reduce corporate default risk and compress credit spreads, while deteriorating global conditions raise default risk and widen spreads; CLI leads these credit-cycle dynamics."
+      }
+    ]
+  },
+  {
+    "node_a": "mich_pessim",
+    "node_b": "sp500_ret",
+    "count": 7,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Consumer pessimism about multi-year economic conditions reflects and amplifies reduced consumer spending and investment expectations, which negatively affect corporate earnings prospects and equity returns."
+      },
+      {
+        "run_id": 2,
+        "text": "Consumer pessimism reflects and reinforces negative economic expectations, weighing on equity market sentiment and contributing to negative equity returns."
+      },
+      {
+        "run_id": 3,
+        "text": "Consumer pessimism about multi-year economic conditions signals reduced future consumption and corporate earnings expectations, weighing on equity prices and returns."
+      },
+      {
+        "run_id": 4,
+        "text": "Consumer pessimism about multi-year economic conditions signals weak forward consumer spending and earnings prospects, which tends to weigh on equity returns through the demand-outlook channel."
+      },
+      {
+        "run_id": 6,
+        "text": "Consumer pessimism about five-year economic conditions signals broad deterioration in household confidence, which is associated with weaker consumer spending and equity returns."
+      },
+      {
+        "run_id": 8,
+        "text": "Consumer pessimism about future economic conditions signals weak household spending expectations, which weighs on corporate earnings outlooks and depresses equity returns."
+      },
+      {
+        "run_id": 9,
+        "text": "Consumer pessimism signals weak future consumption and economic activity, which depresses corporate earnings expectations and equity valuations; declining equity markets also feedback into consumer pessimism through wealth effects."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "real_10y",
+    "count": 6,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Rising real yields reduce the attractiveness of non-yielding gold, prompting outflows from gold ETFs; falling real yields stimulate ETF inflows as the opportunity cost of holding gold declines \u2014 real yields are a primary driver of institutional ETF positioning."
+      },
+      {
+        "run_id": 2,
+        "text": "When real yields rise, the opportunity cost of holding non-yielding gold increases, prompting institutional investors to reduce gold ETF positions; falling real yields attract ETF inflows."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising real yields increase the opportunity cost of holding non-yielding gold ETFs, causing institutional outflows from gold ETFs as the relative attractiveness of TIPS improves."
+      },
+      {
+        "run_id": 6,
+        "text": "Falling real yields make gold-backed ETFs more attractive relative to TIPS, triggering ETF inflows; conversely, rising real yields prompt outflows as the opportunity cost of holding gold through ETFs increases."
+      },
+      {
+        "run_id": 9,
+        "text": "When real yields fall (especially into negative territory), the opportunity cost of holding gold via ETFs declines, attracting institutional inflows into gold ETFs; rising real yields make yield-bearing alternatives more attractive, triggering ETF outflows."
+      },
+      {
+        "run_id": 10,
+        "text": "Negative or low real yields reduce the opportunity cost of holding non-yielding gold through ETFs, increasing investor demand for gold ETF positions; rising real yields make TIPS more attractive relative to gold, triggering ETF outflows."
+      }
+    ]
+  },
+  {
+    "node_a": "jewelry_demand",
+    "node_b": "mich_pessim",
+    "count": 6,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "High consumer pessimism about future economic conditions reduces discretionary spending including jewelry purchases, directly reducing gold jewelry demand."
+      },
+      {
+        "run_id": 3,
+        "text": "Consumer pessimism about future economic conditions reduces discretionary spending including luxury goods like jewelry; higher pessimism depresses consumer gold jewelry purchases."
+      },
+      {
+        "run_id": 5,
+        "text": "Consumer pessimism about future economic conditions reduces discretionary spending, including jewelry purchases; high pessimism is associated with lower jewelry demand, particularly in price-sensitive consumer markets."
+      },
+      {
+        "run_id": 7,
+        "text": "Consumer pessimism about multi-year economic prospects reduces discretionary spending including jewelry purchases, as households facing expected bad times defer non-essential consumption."
+      },
+      {
+        "run_id": 8,
+        "text": "When U.S. consumers expect sustained bad times economically, discretionary spending including gold jewelry purchases declines, reducing jewelry demand."
+      },
+      {
+        "run_id": 10,
+        "text": "Consumer pessimism about multi-year economic prospects is likely to reduce discretionary spending on luxury goods including gold jewelry, as households cut non-essential consumption in anticipation of hard times."
+      }
+    ]
+  },
+  {
+    "node_a": "mine_prod",
+    "node_b": "oil_wti",
+    "count": 6,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Diesel and energy inputs are major variable costs in gold mining operations; high oil prices raise mining costs and can constrain mine production at the margin, creating a causal link from oil to mine production."
+      },
+      {
+        "run_id": 2,
+        "text": "Energy is a major variable cost in gold mining operations; sustained increases in oil prices raise production costs and can constrain or reduce mine output at the margin."
+      },
+      {
+        "run_id": 4,
+        "text": "Oil and energy are major variable input costs in gold mining operations (for equipment, processing, and transportation); rising oil prices increase mine production costs and can reduce mine output at marginal operations, linking oil prices to gold supply."
+      },
+      {
+        "run_id": 6,
+        "text": "Energy is a major variable cost in gold mining; higher oil prices raise mining operating costs, which can incentivize efficiency improvements or constrain output at marginal mines."
+      },
+      {
+        "run_id": 7,
+        "text": "Oil and energy are major variable input costs in gold mining operations; higher oil prices raise production costs and can suppress mine production over time as marginal mines become uneconomic."
+      },
+      {
+        "run_id": 10,
+        "text": "Energy and diesel costs are major variable inputs in gold mining operations; sustained high oil prices raise production costs sufficiently to make some marginal mines uneconomic, constraining mine output."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "unemployment",
+    "count": 5,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Through the Phillips curve mechanism, lower unemployment (tighter labor markets) tends to generate wage and price inflation, while higher unemployment creates disinflationary pressure \u2014 a standard macro relationship linking labor markets to inflation."
+      },
+      {
+        "run_id": 2,
+        "text": "Unemployment and inflation are linked through the Phillips curve mechanism; lower unemployment tightens labor markets and generates wage-push inflation, while higher unemployment reduces inflationary pressure."
+      },
+      {
+        "run_id": 4,
+        "text": "The Phillips curve framework links labor-market slack to inflationary pressure; lower unemployment tightens labor markets, raises wages, and feeds into consumer price inflation, while higher unemployment reduces wage pressure and lowers inflation."
+      },
+      {
+        "run_id": 8,
+        "text": "Labor-market slack (high unemployment) reduces wage growth and consumer spending, exerting downward pressure on consumer prices through the Phillips-curve mechanism; tight labor markets do the reverse."
+      },
+      {
+        "run_id": 9,
+        "text": "The Phillips curve relationship links unemployment to inflation; low unemployment tightens labor markets, puts upward pressure on wages and prices, and feeds through to higher CPI inflation, while high unemployment depresses inflation."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "gpr",
+    "count": 5,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Geopolitical stress events often trigger flight-to-dollar safe-haven flows that strengthen the DXY, though severe U.S.-centered geopolitical risk can also weaken confidence in dollar assets."
+      },
+      {
+        "run_id": 2,
+        "text": "Geopolitical stress often triggers a flight to dollar-denominated safe assets, strengthening the DXY as global investors seek dollar liquidity during crisis episodes."
+      },
+      {
+        "run_id": 4,
+        "text": "Geopolitical stress often triggers safe-haven flows into USD-denominated assets, strengthening the dollar; however, geopolitical events involving the U.S. directly can weaken confidence in the dollar, making the relationship regime-dependent."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical stress episodes trigger safe-haven demand for the U.S. dollar as the world's reserve currency, tending to strengthen DXY during acute geopolitical risk episodes."
+      },
+      {
+        "run_id": 10,
+        "text": "During geopolitical crises, the dollar tends to strengthen as a global safe-haven currency, attracting international capital flows away from conflict-exposed currencies and assets."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "oil_wti",
+    "count": 5,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Oil is priced in dollars globally; a stronger dollar makes oil more expensive for foreign buyers, reducing international demand and putting downward pressure on dollar-denominated oil prices."
+      },
+      {
+        "run_id": 4,
+        "text": "Oil is globally priced in USD, so a stronger dollar reduces the purchasing power of oil-importing nations, dampening global demand and typically exerting downward pressure on oil prices; a weaker dollar has the opposite effect."
+      },
+      {
+        "run_id": 5,
+        "text": "Oil is priced globally in U.S. dollars; a stronger dollar makes oil more expensive for non-dollar buyers, reducing global demand and weighing on oil prices, while a weaker dollar reduces the effective cost of oil for foreign buyers."
+      },
+      {
+        "run_id": 8,
+        "text": "Oil is also dollar-denominated globally, so dollar strength raises the effective cost of oil for foreign buyers, reducing demand and exerting downward pressure on oil prices, while dollar weakness supports oil prices."
+      },
+      {
+        "run_id": 9,
+        "text": "Oil is priced in U.S. dollars globally; a stronger dollar makes oil more expensive for foreign buyers, reducing global demand and typically suppressing dollar-denominated oil prices, creating a well-documented inverse relationship between DXY and oil."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "vix",
+    "count": 5,
+    "justifications": [
+      {
+        "run_id": 3,
+        "text": "During risk-off episodes when VIX spikes, investors flight-to-safety into U.S. dollar assets, typically strengthening the dollar index as a reserve-currency safe haven."
+      },
+      {
+        "run_id": 6,
+        "text": "During risk-off episodes that elevate VIX, investors seek safety in U.S. dollar assets, strengthening the dollar (flight-to-dollar phenomenon alongside flight-to-gold)."
+      },
+      {
+        "run_id": 7,
+        "text": "During risk-off episodes when VIX spikes, global investors flee to the dollar as a safe-haven currency, increasing demand for USD and strengthening the DXY."
+      },
+      {
+        "run_id": 9,
+        "text": "During risk-off episodes that spike VIX, the U.S. dollar typically strengthens as a safe-haven currency as global capital flows into dollar-denominated assets, creating a positive relationship between financial stress and dollar strength."
+      },
+      {
+        "run_id": 10,
+        "text": "During risk-off episodes when VIX spikes, investors flight-to-safety into dollar-denominated assets, increasing demand for the dollar and strengthening the DXY through the safe-haven currency channel."
+      }
+    ]
+  },
+  {
+    "node_a": "gpr",
+    "node_b": "ig_spread",
+    "count": 5,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Geopolitical stress raises systemic financial risk and uncertainty about corporate operating environments, widening credit spreads as investors demand higher compensation for holding corporate debt."
+      },
+      {
+        "run_id": 3,
+        "text": "Geopolitical stress episodes raise uncertainty about corporate operating environments, supply chains, and counterparty risks, causing credit spreads to widen as risk premia expand."
+      },
+      {
+        "run_id": 7,
+        "text": "Geopolitical stress raises uncertainty about corporate earnings and supply chains, widening credit spreads as investors demand greater compensation for holding corporate debt during conflict or sanctions episodes."
+      },
+      {
+        "run_id": 8,
+        "text": "Geopolitical risk events raise systemic uncertainty and can disrupt global supply chains and corporate revenue streams, widening credit spreads as investors demand higher compensation for corporate credit risk."
+      },
+      {
+        "run_id": 9,
+        "text": "Geopolitical risk events raise systemic uncertainty and risk aversion, causing investors to demand higher compensation for holding corporate credit risk, which widens IG credit spreads."
+      }
+    ]
+  },
+  {
+    "node_a": "epu",
+    "node_b": "etf_flows",
+    "count": 4,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Policy uncertainty drives institutional investors toward gold ETFs as a hedge against policy regime risk, increasing ETF inflows during high-EPU episodes."
+      },
+      {
+        "run_id": 3,
+        "text": "High economic policy uncertainty drives institutional investors toward defensive gold ETF positions as gold offers no exposure to policy risk, generating positive ETF inflows during uncertainty spikes."
+      },
+      {
+        "run_id": 7,
+        "text": "Policy uncertainty drives institutional investors toward defensive assets including gold ETFs as a hedge against uncertain policy regimes affecting equity and bond markets."
+      },
+      {
+        "run_id": 8,
+        "text": "Policy uncertainty drives institutional investors into gold ETFs as a hedge against policy-regime risk; elevated EPU is associated with positive ETF inflows as fund managers seek gold's policy-neutral characteristics."
+      }
+    ]
+  },
+  {
+    "node_a": "jewelry_demand",
+    "node_b": "unemployment",
+    "count": 4,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Higher unemployment reduces household income and consumer confidence, suppressing discretionary spending on jewelry and reducing physical gold demand through this channel."
+      },
+      {
+        "run_id": 3,
+        "text": "Rising unemployment reduces household incomes and discretionary spending power, directly reducing consumer demand for gold jewelry, especially in price-sensitive markets."
+      },
+      {
+        "run_id": 8,
+        "text": "Higher unemployment reduces household disposable income and consumer confidence, directly depressing discretionary spending including jewelry purchases."
+      },
+      {
+        "run_id": 10,
+        "text": "High unemployment reduces household incomes and consumer confidence in gold-purchasing countries, directly reducing discretionary spending on gold jewelry as consumers prioritize necessities."
+      }
+    ]
+  },
+  {
+    "node_a": "sp500_ret",
+    "node_b": "unemployment",
+    "count": 4,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Rising unemployment signals weaker economic conditions and reduced corporate earnings expectations, typically weighing on equity returns; sharp unemployment increases often accompany equity bear markets."
+      },
+      {
+        "run_id": 5,
+        "text": "Rising unemployment signals weaker corporate earnings prospects and recession risk, weighing on equity returns; conversely, strong equity markets partially reflect strong labor demand and low unemployment expectations."
+      },
+      {
+        "run_id": 8,
+        "text": "Rising unemployment signals deteriorating economic conditions and corporate earnings, weighing on equity valuations and returns; improving labor markets support earnings growth and equity performance."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising unemployment signals weakening corporate earnings through reduced consumer spending, weighing on equity valuations and generating negative equity returns; falling unemployment has the opposite effect."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "dxy",
+    "count": 3,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Central-bank gold purchases funded by selling dollar reserves directly reduce demand for U.S. dollar assets, exerting downward pressure on the DXY; the post-2022 wave of de-dollarization-motivated gold buying is a clear mechanism."
+      },
+      {
+        "run_id": 4,
+        "text": "Large-scale central-bank gold purchases are often motivated by a desire to reduce USD reserve holdings, implying simultaneous USD sales; if sufficiently large in aggregate, this official-sector diversification away from dollars can weaken the DXY."
+      },
+      {
+        "run_id": 9,
+        "text": "Central bank gold purchases often reflect diversification away from U.S. dollar reserves; large-scale official-sector buying of gold funded by selling dollar reserves exerts downward pressure on the dollar's value."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "epu",
+    "count": 3,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "High and rising government debt burdens generate policy uncertainty about future fiscal adjustments (tax increases, spending cuts, potential monetization), contributing to elevated economic policy uncertainty."
+      },
+      {
+        "run_id": 3,
+        "text": "High and rising government debt levels create uncertainty about future fiscal policy paths \u2014 potential tax increases, spending cuts, or monetization \u2014 contributing to elevated economic policy uncertainty."
+      },
+      {
+        "run_id": 4,
+        "text": "A rapidly rising debt-to-GDP ratio generates political and market debate about fiscal sustainability, debt-ceiling conflicts, and potential austerity versus monetization trade-offs, directly raising economic policy uncertainty as indexed by EPU."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "ig_spread",
+    "count": 3,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Rising sovereign debt levels can raise concerns about fiscal dominance and indirectly elevate the risk premium across the credit spectrum, potentially widening corporate credit spreads through contagion and confidence channels."
+      },
+      {
+        "run_id": 7,
+        "text": "Deteriorating fiscal sustainability can raise concerns about sovereign creditworthiness and financial-system stability, feeding through to wider corporate credit spreads as sovereign risk rises."
+      },
+      {
+        "run_id": 8,
+        "text": "Deteriorating fiscal sustainability can spill over into broader credit-market stress, as higher sovereign debt loads raise systemic risk perceptions and widen corporate credit spreads through contagion."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "mich_pessim",
+    "count": 3,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Consumer pessimism about multi-year economic conditions drives retail and household investors toward defensive assets including gold ETFs, increasing net inflows during high-pessimism periods."
+      },
+      {
+        "run_id": 7,
+        "text": "Pessimistic consumer expectations about multi-year economic conditions drive retail investors toward defensive gold ETF holdings as a store of value during anticipated bad times."
+      },
+      {
+        "run_id": 10,
+        "text": "Consumer pessimism about economic prospects drives retail and institutional investors toward defensive investment vehicles including gold ETFs, increasing net inflows as part of the same flight-to-safety behavior."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "dxy",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "A weaker dollar raises the cost of imported goods and contributes to domestic inflation expectations; conversely, dollar appreciation can suppress inflation expectations by reducing import-price pressures."
+      },
+      {
+        "run_id": 5,
+        "text": "A weaker dollar raises import prices and tends to lift domestic inflation expectations, pushing break-even rates higher; a stronger dollar suppresses imported inflation and break-even rates."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "debt_gdp",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 7,
+        "text": "Rising U.S. debt-to-GDP motivates foreign central banks to diversify reserve holdings away from dollar-denominated Treasuries toward gold, increasing official-sector gold purchases."
+      },
+      {
+        "run_id": 9,
+        "text": "Rising U.S. debt-to-GDP motivates foreign central banks to diversify their reserve portfolios away from U.S. Treasuries and into gold, as high U.S. indebtedness raises long-run dollar debasement concerns for reserve managers."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "etf_flows",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 5,
+        "text": "Both central-bank purchases and ETF flows represent investment demand channels for gold that respond to overlapping macro drivers (inflation fears, dollar weakness, geopolitical risk); large central-bank buying can also signal gold's safe-asset status, reinforcing institutional ETF demand."
+      },
+      {
+        "run_id": 10,
+        "text": "Both ETF flows and central-bank purchases respond to common drivers of institutional gold demand \u2014 inflation fears, geopolitical risk, dollar weakness \u2014 and may reinforce each other as synchronized demand shocks in the physical gold market."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "mich_pessim",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 4,
+        "text": "High realized inflation erodes household purchasing power and is one of the most direct drivers of consumer pessimism; persistently elevated CPI causes more survey respondents to expect bad economic times ahead."
+      },
+      {
+        "run_id": 9,
+        "text": "High realized inflation reduces the real purchasing power of households and raises economic anxiety, increasing the share of consumers who expect bad economic times in the Michigan survey."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "dxy",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "A rapidly rising debt-to-GDP ratio can erode foreign investor confidence in the long-run value of the dollar, generating selling pressure on the DXY as reserve managers diversify away from dollar assets."
+      },
+      {
+        "run_id": 9,
+        "text": "Deteriorating U.S. fiscal sustainability signals long-run dollar debasement risk, which tends to weaken the dollar as foreign investors demand higher risk premiums on dollar-denominated assets or diversify away from them."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "jewelry_demand",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "A stronger dollar reduces the purchasing power of non-dollar consumers for dollar-priced gold, suppressing jewelry demand in key markets like India and China where incomes are denominated in local currencies."
+      },
+      {
+        "run_id": 10,
+        "text": "A stronger dollar increases the local-currency cost of gold for consumers in India, China, and other major jewelry markets, reducing purchasing power and dampening jewelry demand in those regions."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "silver",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 5,
+        "text": "Like gold, silver is priced in U.S. dollars on global markets; dollar strength makes silver more expensive for non-dollar buyers and reduces global demand, while dollar weakness provides the same demand-support channel as for gold."
+      },
+      {
+        "run_id": 7,
+        "text": "Silver is priced in USD on global markets; dollar strength reduces silver's affordability for foreign buyers, suppressing demand, while dollar weakness supports silver prices through the same currency-denomination mechanism as gold."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "oecd_cli",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 4,
+        "text": "During global expansions, institutional investors reduce defensive gold ETF holdings and rotate into growth assets; during contractions, they increase gold ETF allocations as a safe-haven hedge, making ETF flows systematically responsive to the global cycle."
+      },
+      {
+        "run_id": 10,
+        "text": "During global economic expansion, risk appetite rises and investors rotate away from defensive assets like gold ETFs, causing outflows; during contraction, risk aversion rises and ETF inflows increase."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "silver",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 4,
+        "text": "Precious-metals ETF flows reflect broader investor sentiment toward the precious metals complex; strong gold ETF inflows signal risk-off or inflation-hedge demand that simultaneously drives silver ETF buying, transmitting common demand shocks across both metals."
+      },
+      {
+        "run_id": 9,
+        "text": "Silver ETF flows and gold ETF flows are driven by overlapping macro factors (inflation expectations, risk aversion, monetary policy); institutional investors often rotate between gold and silver ETFs simultaneously, creating correlated flow patterns."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "sp500_ret",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 7,
+        "text": "Equity market selloffs trigger risk-off reallocation from equities into safe-haven assets including gold ETFs, while equity rallies reduce the relative attractiveness of defensive gold allocations."
+      },
+      {
+        "run_id": 9,
+        "text": "Negative equity returns prompt institutional investors to rotate into defensive gold ETF positions as part of risk-off portfolio rebalancing, while strong equity returns draw capital away from gold ETFs toward growth assets."
+      }
+    ]
+  },
+  {
+    "node_a": "fed_funds",
+    "node_b": "ig_spread",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 7,
+        "text": "Rising policy rates tighten financial conditions and increase corporate borrowing costs, widening credit spreads as refinancing risk and default probability increase for leveraged issuers."
+      },
+      {
+        "run_id": 10,
+        "text": "Tighter monetary policy raises financing costs for corporations and slows economic activity, increasing default risk and widening credit spreads; easing has the reverse effect through the credit and liquidity channels."
+      }
+    ]
+  },
+  {
+    "node_a": "mich_pessim",
+    "node_b": "vix",
+    "count": 2,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "Consumer pessimism and financial-market stress measures tend to co-move during recessionary episodes; elevated household pessimism both reflects and reinforces risk-averse behavior that contributes to equity-market volatility."
+      },
+      {
+        "run_id": 4,
+        "text": "Consumer pessimism and financial-market stress are driven by overlapping macroeconomic anxieties; periods of elevated VIX and financial stress typically coincide with deteriorating consumer expectations, and vice versa, through shared uncertainty channels."
+      }
+    ]
+  },
+  {
+    "node_a": "breakeven_10y",
+    "node_b": "etf_flows",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 9,
+        "text": "Rising inflation expectations motivate institutional investors to add inflation-hedge exposure through gold ETFs, generating net inflows; falling inflation expectations reduce the inflation-hedge appeal of gold and can trigger outflows."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "epu",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "High economic policy uncertainty, particularly around U.S. fiscal and monetary policy, motivates central banks to diversify reserves away from dollar-denominated assets toward gold."
+      }
+    ]
+  },
+  {
+    "node_a": "cb_purchases",
+    "node_b": "vix",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 10,
+        "text": "Periods of elevated financial market stress increase the strategic motivation for central banks to accumulate gold as a reserve asset uncorrelated with financial-system stress, though this channel operates with longer lags than private-sector responses."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "jewelry_demand",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 5,
+        "text": "High consumer price inflation erodes real household purchasing power in key jewelry-consuming markets, reducing discretionary spending on gold jewelry, particularly in price-sensitive emerging-market consumers."
+      }
+    ]
+  },
+  {
+    "node_a": "cpi_yoy",
+    "node_b": "oecd_cli",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 8,
+        "text": "Above-trend global economic activity tightens product and labor markets, creating inflationary pressures that feed through to realized CPI inflation; below-trend activity does the reverse."
+      }
+    ]
+  },
+  {
+    "node_a": "debt_gdp",
+    "node_b": "fed_funds",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 5,
+        "text": "High and rising sovereign debt burdens constrain the Fed's ability to raise rates aggressively (since higher rates raise debt-servicing costs and can trigger fiscal crises), creating a political-economy pressure on monetary policy that links fiscal and monetary variables."
+      }
+    ]
+  },
+  {
+    "node_a": "dxy",
+    "node_b": "epu",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 1,
+        "text": "U.S.-specific policy uncertainty can weaken confidence in U.S. dollar assets and trigger capital outflows, affecting the dollar exchange rate; major trade-policy uncertainty (tariffs) has historically correlated with dollar movements."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "gpr",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 9,
+        "text": "Geopolitical risk events motivate institutional and retail investors to add gold exposure through ETFs as a safe-haven vehicle, generating net inflows during periods of elevated geopolitical stress."
+      }
+    ]
+  },
+  {
+    "node_a": "etf_flows",
+    "node_b": "ig_spread",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 5,
+        "text": "Institutional investors who shift into gold ETFs during credit stress episodes are simultaneously reducing exposure to credit-sensitive assets; ETF inflows and widening credit spreads co-occur as part of the same risk-off reallocation."
+      }
+    ]
+  },
+  {
+    "node_a": "gpr",
+    "node_b": "sp500_ret",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 8,
+        "text": "Geopolitical risk events create uncertainty about global economic conditions and corporate earnings, typically weighing on equity returns as investors de-risk portfolios during periods of elevated international tensions."
+      }
+    ]
+  },
+  {
+    "node_a": "mine_prod",
+    "node_b": "silver",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 2,
+        "text": "Silver and gold are frequently co-produced from the same polymetallic deposits; changes in mining activity driven by one metal's economics affect the joint supply of both metals."
+      }
+    ]
+  },
+  {
+    "node_a": "oecd_cli",
+    "node_b": "silver",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 3,
+        "text": "Silver has significant industrial demand (electronics, solar panels, EVs); a rising global CLI signals stronger industrial output and manufacturing, increasing silver demand and prices."
+      }
+    ]
+  },
+  {
+    "node_a": "oecd_cli",
+    "node_b": "vix",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 6,
+        "text": "Deteriorating global economic momentum (falling CLI) raises equity-market uncertainty and risk aversion, contributing to VIX elevation as investors anticipate weaker corporate earnings and economic stress."
+      }
+    ]
+  },
+  {
+    "node_a": "real_10y",
+    "node_b": "unemployment",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 9,
+        "text": "Rising unemployment signals economic weakness, which tends to reduce real interest rates as the Fed eases policy and as the natural rate of interest falls during recessions, transmitting labor market conditions to real yields."
+      }
+    ]
+  },
+  {
+    "node_a": "silver",
+    "node_b": "sp500_ret",
+    "count": 1,
+    "justifications": [
+      {
+        "run_id": 8,
+        "text": "Silver's large industrial-demand component (~50% of total) makes it sensitive to global economic conditions; equity returns and silver returns share common industrial-activity drivers that create a causal linkage through the business cycle."
+      }
+    ]
+  }
+]

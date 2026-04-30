@@ -27,3 +27,5 @@ response = client.messages.create(
 print("Response:", response.content[0].text)
 print("Input tokens:", response.usage.input_tokens)
 print("Output tokens:", response.usage.output_tokens)
+
+

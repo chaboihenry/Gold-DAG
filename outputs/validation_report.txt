@@ -1,0 +1,94 @@
+======================================================================
+Causal Validation Report
+======================================================================
+
+Model: claude-sonnet-4-6
+Final status: stopped: hit max iterations (8)
+Total iterations: 8
+Total cost: $0.4143
+Cost cap: $2.00
+Final edge count: 59
+Final graph is DAG: True
+
+======================================================================
+Iteration log
+======================================================================
+  Iter  1 (cycle_break         ): reverse real_10y -> dxy, cost $0.0409
+  Iter  2 (cycle_break         ): reverse ig_spread -> unemployment, cost $0.0396
+  Iter  3 (cycle_break         ): reverse dxy -> oil_wti, cost $0.0396
+  Iter  4 (cycle_break         ): reverse sp500_ret -> vix, cost $0.0392
+  Iter  5 (full_validation     ): removed=5, added=1, reversed=1, skipped=1, cost $0.0654
+  Iter  6 (full_validation     ): removed=3, added=0, reversed=2, skipped=2, cost $0.0656
+  Iter  7 (full_validation     ): removed=5, added=1, reversed=1, skipped=0, cost $0.0627
+  Iter  8 (full_validation     ): removed=1, added=2, reversed=2, skipped=1, cost $0.0613
+
+======================================================================
+Applied cycle-break actions (in order)
+======================================================================
+  1. reverse real_10y -> dxy
+  2. reverse ig_spread -> unemployment
+  3. reverse dxy -> oil_wti
+  4. reverse sp500_ret -> vix
+
+======================================================================
+Final directed edges
+======================================================================
+  jewelry_demand -> gold_price [BIDIR]
+  etf_flows -> gold_price [BIDIR]
+  mine_prod -> gold_price
+  unemployment -> fed_funds [BIDIR]
+  silver -> gold_price [BIDIR]
+  fed_funds -> breakeven_10y
+  gpr -> cb_purchases
+  cpi_yoy -> breakeven_10y
+  debt_gdp -> breakeven_10y
+  breakeven_10y -> gold_price
+  oil_wti -> breakeven_10y
+  cb_purchases -> gold_price
+  cpi_yoy -> fed_funds
+  cpi_yoy -> gold_price
+  oil_wti -> cpi_yoy
+  debt_gdp -> gold_price
+  fed_funds -> dxy
+  dxy -> gold_price
+  epu -> gold_price
+  epu -> ig_spread
+  gpr -> gold_price
+  ig_spread -> gold_price
+  mich_pessim -> gold_price
+  oecd_cli -> gold_price
+  oil_wti -> gold_price [BIDIR]
+  real_10y -> gold_price
+  sp500_ret -> gold_price
+  vix -> gold_price
+  gpr -> oil_wti
+  gpr -> vix
+  oecd_cli -> jewelry_demand
+  unemployment -> mich_pessim
+  oecd_cli -> oil_wti [BIDIR]
+  oecd_cli -> sp500_ret
+  oecd_cli -> unemployment
+  oil_wti -> silver [BIDIR]
+  gpr -> epu
+  vix -> etf_flows
+  epu -> mich_pessim
+  epu -> sp500_ret
+  oecd_cli -> ig_spread
+  real_10y -> etf_flows
+  mich_pessim -> jewelry_demand
+  oil_wti -> mine_prod
+  unemployment -> cpi_yoy [BIDIR]
+  gpr -> dxy
+  vix -> dxy
+  gpr -> ig_spread
+  epu -> etf_flows
+  debt_gdp -> epu
+  debt_gdp -> ig_spread
+  mich_pessim -> etf_flows
+  unemployment -> ig_spread [BIDIR]
+  oil_wti -> dxy [BIDIR]
+  real_10y -> dxy
+  breakeven_10y -> real_10y [BIDIR]
+  fed_funds -> real_10y
+  mich_pessim -> sp500_ret [BIDIR]
+  unemployment -> gold_price
