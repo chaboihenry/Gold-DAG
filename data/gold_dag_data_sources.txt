@@ -1,0 +1,25 @@
+GOLD DAG DATA - SOURCES
+Generated: 2026-04-29T14:17:18.807797
+Frequency: Daily (business days)
+
+=== Primary source: FRED ===
+https://fred.stlouisfed.org
+
+eurusd   | DEXUSEU      | starts 1999-01-04 | EUR/USD Spot Rate (USD per EUR)
+           https://fred.stlouisfed.org/series/DEXUSEU
+wti      | DCOILWTICO   | starts 1986-01-02 | WTI Crude Oil Spot Price (USD/bbl)
+           https://fred.stlouisfed.org/series/DCOILWTICO
+vix      | VIXCLS       | starts 1990-01-02 | CBOE Volatility Index (close)
+           https://fred.stlouisfed.org/series/VIXCLS
+
+=== Fallback source: Yahoo Finance ===
+https://finance.yahoo.com
+Used only for variables not hosted on FRED.
+Field: Close (split/dividend-adjusted via auto_adjust=True)
+
+dxy      | DX-Y.NYB     | starts 1985-01-01 | ICE US Dollar Index
+           https://finance.yahoo.com/quote/DX-Y.NYB
+copper   | HG=F         | starts 2000-08-23 | COMEX Copper Front-Month Futures (USD/lb)
+           https://finance.yahoo.com/quote/HG=F
+gvz      | ^GVZ         | starts 2008-06-03 | CBOE Gold Volatility Index
+           https://finance.yahoo.com/quote/^GVZ
